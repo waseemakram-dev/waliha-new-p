@@ -1,0 +1,2176 @@
+/* =========================================================
+   KZ GRAPHIX - HERO SECTION STYLESHEET
+   100% Code-Driven (Zero Video Dependency)
+   ========================================================= */
+
+:root {
+  --bg-color: #F3F2EE;
+  --text-dark: #1b1e34;
+  --text-muted: #7e8299;
+  --red-string: #d62828;
+  --tape-color: rgba(247, 221, 148, 0.88);
+  --paper-bg: #ffffff;
+  --accent-pill: #1b1e34;
+  --font-hero: 'Syne', sans-serif;
+  --font-body: 'Plus Jakarta Sans', sans-serif;
+  --font-hand: 'Caveat', cursive;
+  --transition-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--bg-color);
+  color: var(--text-dark);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* Subtle Realistic Paper Grain Texture Overlay */
+.paper-texture {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 100;
+  opacity: 0.035;
+  background-image: radial-gradient(#1b1e34 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+/* Master Container */
+.portfolio-container {
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+/* =========================================================
+   TOP NAVIGATION
+   ========================================================= */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  z-index: 50;
+}
+
+.brand-tag {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  font-size: 0.95rem;
+}
+
+.brand-dot {
+  width: 9px;
+  height: 9px;
+  background: var(--red-string);
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(214, 40, 40, 0.5);
+}
+
+.page-switcher {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.nav-btn {
+  background: transparent;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0.35rem 0.6rem;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.nav-btn.active {
+  color: var(--text-dark);
+}
+
+.nav-btn.active::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0.6rem;
+  right: 0.6rem;
+  height: 2px;
+  background: var(--text-dark);
+  border-radius: 2px;
+}
+
+.nav-btn:hover {
+  color: var(--text-dark);
+}
+
+/* =========================================================
+   HERO SECTION (Video + Clean Code Overlay)
+   ========================================================= */
+.hero-section {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 2rem;
+  overflow: visible;
+}
+
+.hero-video-wrapper {
+  position: relative;
+  width: 100vw;
+  max-width: none;
+  margin: 0 auto;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: none;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-video {
+  width: 100%;
+  max-width: none;
+  flex: 0 0 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  /* Blends pure white background cleanly into paper background */
+  pointer-events: none;
+}
+
+
+.red-thread {
+  fill: none;
+  stroke: var(--red-string);
+  stroke-width: 2.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-dasharray: 2000;
+  stroke-dashoffset: 2000;
+  animation: drawThread 2.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  filter: drop-shadow(1px 2px 2px rgba(214, 40, 40, 0.18));
+}
+
+@keyframes drawThread {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* Subtle continuous pulse wave on red threads */
+@keyframes threadFlow {
+  0% {
+    stroke-dashoffset: 0;
+  }
+
+  100% {
+    stroke-dashoffset: -80;
+  }
+}
+
+/* Central Character Sketch Line-Art */
+.creator-sketch-container {
+  position: absolute;
+  top: 105px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 620px;
+  height: 640px;
+  z-index: 3;
+  pointer-events: none;
+  will-change: transform;
+}
+
+.creator-sketch-svg {
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.05));
+}
+
+/* Sketch Line Draw-in Animation on Initial Load */
+.sketch-line {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: drawSketch 2.8s var(--transition-smooth) forwards;
+}
+
+.sketch-detail {
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: drawSketch 2s ease forwards 0.4s;
+}
+
+.sketch-hatch line {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 60;
+  animation: drawSketch 1.2s ease forwards 0.8s;
+}
+
+@keyframes drawSketch {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* =========================================================
+   REALISTIC MASKING TAPE
+   ========================================================= */
+.masking-tape {
+  position: absolute;
+  background: var(--tape-color);
+  backdrop-filter: blur(2px);
+  height: 22px;
+  width: 75px;
+  border-left: 2px dashed rgba(255, 255, 255, 0.4);
+  border-right: 2px dashed rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  z-index: 10;
+  opacity: 0.95;
+}
+
+.tape-top-right {
+  top: -12px;
+  right: -18px;
+  transform: rotate(24deg);
+}
+
+.tape-ai-corner {
+  top: -12px;
+  left: 18px;
+  transform: rotate(-12deg);
+}
+
+.tape-scrap {
+  top: -6px;
+  left: -12px;
+  transform: rotate(18deg);
+  width: 50px;
+  height: 18px;
+}
+
+.tape-graphic {
+  top: -14px;
+  left: 50%;
+  transform: translateX(-50%) rotate(3deg);
+  width: 80px;
+}
+
+.tape-design {
+  top: -10px;
+  left: 20%;
+  transform: rotate(-8deg);
+  width: 60px;
+}
+
+.tape-brush {
+  top: 60px;
+  left: 45px;
+  transform: rotate(-25deg);
+  width: 65px;
+  height: 22px;
+}
+
+.tape-pencil {
+  top: 65px;
+  left: 40px;
+  transform: rotate(35deg);
+  width: 70px;
+  height: 22px;
+}
+
+/* =========================================================
+   INTERACTIVE NODES & STICKY NOTES
+   ========================================================= */
+.interactive-node {
+  position: absolute;
+  z-index: 6;
+  cursor: pointer;
+  transition: transform 0.4s var(--transition-smooth), filter 0.3s ease;
+  will-change: transform;
+}
+
+.interactive-node:hover {
+  transform: scale(1.08) translateY(-6px) !important;
+  filter: drop-shadow(0 16px 28px rgba(27, 30, 52, 0.16));
+}
+
+.paper-card {
+  background: var(--paper-bg);
+  border: 2.2px solid var(--text-dark);
+  padding: 0.9rem 1.6rem;
+  box-shadow: 4px 6px 0px rgba(27, 30, 52, 0.95);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.note-heading {
+  font-family: var(--font-body);
+  font-weight: 800;
+  font-size: 1.15rem;
+  letter-spacing: 0.03em;
+  color: var(--text-dark);
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* POSITION 1: VIDEO EDITING (Top Left) */
+.node-video-editing {
+  top: 360px;
+  left: 14%;
+  transform: rotate(-3deg);
+}
+
+.node-video-editing .paper-card {
+  min-width: 175px;
+}
+
+/* Real Brush Prop */
+.brush-prop {
+  position: absolute;
+  top: -160px;
+  left: -130px;
+  width: 250px;
+  height: 250px;
+  pointer-events: none;
+  transform: rotate(-30deg);
+  z-index: 12;
+}
+
+.tool-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+  filter: drop-shadow(6px 12px 14px rgba(0, 0, 0, 0.18));
+}
+
+/* POSITION 2: AI CONTENT CREATION (Bottom Left) */
+.node-ai-content {
+  top: 680px;
+  left: 12%;
+  transform: rotate(2deg);
+}
+
+.node-ai-content .paper-card {
+  min-width: 220px;
+  padding: 0.9rem 1.5rem;
+}
+
+.doodle-scrap {
+  position: absolute;
+  bottom: -45px;
+  left: -55px;
+  pointer-events: none;
+}
+
+/* POSITION 3: GRAPHIC DESIGN (Top Right) */
+.node-graphic-design {
+  top: 430px;
+  right: 17%;
+  transform: rotate(3deg);
+}
+
+.node-graphic-design .paper-card {
+  min-width: 185px;
+}
+
+/* Real Pencil Prop */
+.pencil-prop {
+  position: absolute;
+  top: -10px;
+  right: -130px;
+  width: 230px;
+  height: 230px;
+  pointer-events: none;
+  transform: rotate(25deg);
+  z-index: 12;
+}
+
+/* POSITION 4: "DESIGN" BADGE */
+.node-design-pill {
+  top: 380px;
+  right: 6%;
+  transform: rotate(-10deg);
+}
+
+.pill-badge {
+  background: #ffffff;
+  border: 3.5px solid #d62828;
+  border-radius: 999px;
+  padding: 0.5rem 1.8rem;
+  box-shadow: 3px 5px 0px #d62828;
+}
+
+.pill-text {
+  font-family: var(--font-hero);
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: #d62828;
+  letter-spacing: 0.05em;
+}
+
+/* POSITION 5: BRAND CREATIVE (Bottom Right) */
+.node-brand-creative {
+  top: 670px;
+  right: 9%;
+  transform: rotate(-2deg);
+}
+
+.node-brand-creative .paper-card {
+  min-width: 180px;
+}
+
+.signature-doodle {
+  position: absolute;
+  top: -50px;
+  left: -15px;
+  pointer-events: none;
+}
+
+/* =========================================================
+   DOODLES & MICRO DETAILS
+   ========================================================= */
+.doodle {
+  position: absolute;
+  pointer-events: none;
+  z-index: 4;
+}
+
+.doodle-smiley {
+  top: 410px;
+  right: 36%;
+  transform: rotate(12deg);
+}
+
+.doodle-wobbly-face {
+  top: 590px;
+  right: 7%;
+}
+
+.doodle-tangle-left {
+  top: 520px;
+  left: 20%;
+}
+
+
+
+/* =========================================================
+   ABOUT ME SECTION (Pixel-Perfect Match with Canva Design)
+   ========================================================= */
+.about-section {
+  position: relative;
+  width: 100%;
+  padding: 1.5rem 2.5rem;
+  background: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Dark Navy Header Banner Bar */
+.about-banner-bar {
+  background: #2B2A48;
+  width: 100%;
+  max-width: 1360px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  box-shadow: 0 6px 16px rgba(43, 42, 72, 0.16);
+  margin-bottom: 3.5rem;
+}
+
+.about-banner-title {
+  font-family: var(--font-body);
+  font-weight: 700;
+  font-size: 1.35rem;
+  color: #ffffff;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Main 2-Column Grid Container */
+.about-container {
+  width: 100%;
+  max-width: 1360px;
+  display: grid;
+  grid-template-columns: 520px 1fr;
+  gap: 3rem;
+  align-items: flex-start;
+  position: relative;
+}
+
+/* Left Column: Character Sticker Cutout (Cropped cleanly at waist level to match Canva design) */
+.about-avatar-col {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.avatar-sticker-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  /* Image: 941x1672. At 520px wide → natural height = 924px.
+     Hoodie hem (body end) is at ~57% = 527px. Show that naturally. */
+  height: 560px;
+  overflow: hidden;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.12));
+  transition: transform 0.4s var(--transition-smooth);
+}
+
+.avatar-sticker-wrapper:hover {
+  transform: translateY(-6px);
+}
+
+.avatar-sticker-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* Right Column: Bio Details, Typography & Software Stack */
+.about-info-col {
+  position: relative;
+  padding-top: 0.5rem;
+}
+
+/* Dangling Spider — thread starts from top of container going DOWN */
+.about-info-col .spider-thread-container {
+  position: absolute;
+  /* Starts at the banner and drops into place when this section is revealed. */
+  top: 74px;
+  right: 40px;
+  z-index: 15;
+  pointer-events: none;
+  overflow: visible;
+  --spider-drop-position: -130px;
+  transform: translateY(var(--spider-drop-position));
+  transition: transform 0.12s linear;
+  will-change: transform;
+}
+
+.hanging-spider {
+  position: relative;
+  display: block;
+  width: 82px;
+  height: 115px;
+  overflow: hidden;
+  transform-origin: top center;
+}
+
+/* Remove the remaining CSS connector line. */
+.hanging-spider::before {
+  display: none;
+}
+
+.spider-img {
+  width: 82px;
+  height: auto;
+  display: block;
+  mix-blend-mode: multiply;
+  filter: drop-shadow(3px 8px 12px rgba(0, 0, 0, 0.16));
+  /* Hide the thread embedded in the PNG; only keep the spider itself. */
+  transform: translateY(-125px);
+}
+
+/* Header Group */
+.about-header-group {
+  margin-bottom: 1.5rem;
+}
+
+.about-greeting-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  max-width: 680px;
+  padding-right: 50px;
+}
+
+.about-greeting {
+  font-family: var(--font-body);
+  font-size: 2rem;
+  font-weight: 500;
+  color: #31314C;
+}
+
+.about-aka {
+  font-family: var(--font-hand);
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #BE4B4D;
+  transform: rotate(-3deg);
+  display: inline-block;
+}
+
+.about-name {
+  font-family: var(--font-body);
+  font-size: clamp(3.2rem, 5.2vw, 5.2rem);
+  font-weight: 800;
+  color: #31314C;
+  line-height: 1.05;
+  margin: 0.2rem 0;
+  letter-spacing: -0.01em;
+}
+
+.about-role {
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #BE4B4D;
+  letter-spacing: 0.05em;
+  margin-top: 0.2rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Bio Description Paragraphs */
+.about-description {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #1a1a24;
+  max-width: 740px;
+  margin-bottom: 2.2rem;
+}
+
+.about-description p {
+  margin-bottom: 1rem;
+}
+
+/* Official Software Tools Row */
+.software-tools-row {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+.tool-icon-card {
+  width: 60px;
+  height: 60px;
+  border-radius: 14px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transition: transform 0.28s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease;
+}
+
+.tool-icon-card:hover {
+  transform: translateY(-6px) scale(1.1);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.22);
+}
+
+.software-icon {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* =========================================================
+   ABOUT ME SUBSECTION: EXPERIENCE & CREATIVE EXPERTISE
+   ========================================================= */
+.about-details-section {
+  width: 100%;
+  background: var(--bg-color);
+  padding: 3.5rem 2.5rem 4rem;
+  overflow: hidden;
+}
+
+.about-details-container {
+  width: 100%;
+  max-width: 1360px;
+  min-height: 620px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
+  align-items: stretch;
+  position: relative;
+}
+
+.about-details-content {
+  position: relative;
+  z-index: 2;
+  padding: 0.5rem 2rem 0 6rem;
+}
+
+.details-block+.details-block {
+  margin-top: 3rem;
+}
+
+.details-heading {
+  position: relative;
+  color: #31314C;
+  font-family: var(--font-body);
+  font-size: clamp(2rem, 3vw, 3rem);
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.3rem;
+}
+
+.details-heading::before {
+  content: '';
+  position: absolute;
+  top: 0.48em;
+  left: -1.3rem;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #31314C;
+}
+
+.details-intro {
+  max-width: 650px;
+  color: #1a1a24;
+  font-size: 1rem;
+  line-height: 1.75;
+  letter-spacing: 0.015em;
+  margin-bottom: 0.7rem;
+}
+
+.experience-list {
+  max-width: 650px;
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.experience-item {
+  padding-left: 1rem;
+  border-left: 3px solid #BE4B4D;
+}
+
+.experience-item h3 {
+  color: #31314C;
+  font-size: 1rem;
+  line-height: 1.45;
+  font-weight: 700;
+}
+
+.experience-item span {
+  display: block;
+  color: #BE4B4D;
+  font-size: 0.92rem;
+  font-weight: 700;
+  margin-top: 0.2rem;
+}
+
+.expertise-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem 1.5rem;
+  max-width: 680px;
+  list-style: none;
+}
+
+.expertise-list li {
+  position: relative;
+  padding-left: 1rem;
+  color: #1a1a24;
+  font-size: 0.98rem;
+  line-height: 1.55;
+}
+
+.expertise-list li::before {
+  content: '';
+  position: absolute;
+  top: 0.65em;
+  left: 0;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #BE4B4D;
+}
+
+.about-details-visual {
+  position: relative;
+  min-height: 620px;
+}
+
+.about-details-img {
+  position: absolute;
+  top: -7rem;
+  left: 50%;
+  width: 53rem;
+  height: auto;
+  transform: translateX(-50%);
+  display: block;
+  filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.1));
+}
+
+/* =========================================================
+   SELECTED WORK SECTION
+   ========================================================= */
+.work-section {
+  width: 100%;
+  padding: 0 2.5rem 1.5rem;
+  background: var(--bg-color);
+  overflow: hidden;
+}
+
+.work-heading-area {
+  width: 100%;
+  max-width: 1360px;
+  min-height: 560px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.work-title-backdrop {
+  position: absolute;
+  top: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  color: rgba(49, 49, 76, 0.055);
+  font-family: var(--font-body);
+  font-size: clamp(8rem, 19vw, 25.5rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.07em;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.work-spider {
+  position: absolute;
+  top: -1.2rem;
+  left: 29%;
+  width: 88px;
+  height: auto;
+  display: block;
+  mix-blend-mode: multiply;
+  filter: drop-shadow(3px 8px 12px rgba(0, 0, 0, 0.13));
+  z-index: 2;
+}
+
+.work-title-group {
+  position: absolute;
+  top: 9.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 3;
+}
+
+.work-title {
+  color: #2B2A48;
+  font-family: var(--font-body);
+  font-size: clamp(4.5rem, 7vw, 7rem);
+  font-weight: 800;
+  line-height: 0.95;
+  letter-spacing: -0.045em;
+  white-space: nowrap;
+}
+
+.work-subtitle {
+  color: #BE4B4D;
+  font-size: clamp(1rem, 1.6vw, 1.55rem);
+  font-style: italic;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-top: 0.35rem;
+  white-space: nowrap;
+}
+
+.work-categories {
+  position: absolute;
+  left: 7%;
+  top: 21rem;
+  color: #2B2A48;
+  font-family: var(--font-body);
+  font-size: clamp(1.35rem, 2vw, 2rem);
+  font-weight: 800;
+  line-height: 1.45;
+  letter-spacing: 0.055em;
+  list-style-position: outside;
+}
+
+.work-categories li {
+  padding-left: 0.45rem;
+}
+
+.work-category-banner {
+  width: 100%;
+  max-width: 1240px;
+  min-height: 78px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2B2A48;
+}
+
+.work-category-banner h3 {
+  color: #ffffff;
+  font-family: var(--font-body);
+  font-size: clamp(1.5rem, 2.3vw, 2.2rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.video-showcase {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 2.8rem 0 1rem;
+}
+
+.video-showcase-intro {
+  margin-bottom: 2.8rem;
+}
+
+.video-showcase-intro h4 {
+  position: relative;
+  color: #2B2A48;
+  font-size: clamp(1.25rem, 2vw, 1.8rem);
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  margin-bottom: 0.55rem;
+  padding-left: 1.55rem;
+}
+
+.video-showcase-intro h4::before {
+  content: '';
+  position: absolute;
+  top: 0.52em;
+  left: 0.2rem;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2B2A48;
+}
+
+.video-showcase-intro h4 span {
+  font-size: 0.75em;
+}
+
+.video-showcase-intro p {
+  color: #11121c;
+  font-size: clamp(0.95rem, 1.3vw, 1.14rem);
+  line-height: 1.55;
+}
+
+.video-showcase-intro p strong {
+  color: #BE4B4D;
+}
+
+.portfolio-video-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.portfolio-video-grid-top {
+  grid-template-columns: 1fr 1fr 3.17fr;
+  margin-bottom: 1.5rem;
+}
+
+.portfolio-video-grid-bottom {
+  grid-template-columns: 3.17fr 1fr 1fr 1fr;
+}
+
+.portfolio-video-card {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #101016;
+}
+
+.portfolio-video-grid-top .portfolio-video-card {
+  aspect-ratio: 9 / 16;
+}
+
+.portfolio-video-grid-top .landscape-video {
+  aspect-ratio: 16 / 9;
+}
+
+.portfolio-video-grid-bottom .portfolio-video-card {
+  aspect-ratio: 9 / 16;
+}
+
+.portfolio-video-grid-bottom .landscape-video {
+  aspect-ratio: 16 / 9;
+}
+
+.portfolio-video-card video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  background: #101016;
+}
+
+/* =========================================================
+   MOTION DESIGN INTRO SECTION
+   ========================================================= */
+.motion-intro-section {
+  width: 100%;
+  max-width: 1600px;
+  min-height: 700px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-color);
+}
+
+.motion-backdrop {
+  position: absolute;
+  inset: 2rem 1rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: rgba(49, 49, 76, 0.055);
+  font-family: var(--font-body);
+  font-size: clamp(10rem, 17vw, 16rem);
+  font-weight: 800;
+  line-height: 0.78;
+  letter-spacing: -0.075em;
+  pointer-events: none;
+  user-select: none;
+}
+
+.motion-backdrop span:nth-child(1) {
+  align-self: flex-end;
+}
+
+.motion-backdrop span:nth-child(2) {
+  align-self: flex-start;
+}
+
+.motion-backdrop span:nth-child(3) {
+  align-self: flex-end;
+}
+
+.motion-copy {
+  position: absolute;
+  top: 3rem;
+  left: 15%;
+  z-index: 3;
+  color: #2B2A48;
+}
+
+.motion-label {
+  position: relative;
+  padding-left: 1.6rem;
+  margin-bottom: 1.8rem;
+  font-size: clamp(1.25rem, 1.8vw, 1.75rem);
+  font-weight: 800;
+  letter-spacing: 0.045em;
+}
+
+.motion-label::before {
+  content: '';
+  position: absolute;
+  top: 0.48em;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #2B2A48;
+}
+
+.motion-copy h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(5rem, 8vw, 8rem);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+  white-space: nowrap;
+}
+
+.motion-kicker {
+  font-size: clamp(1.5rem, 2.3vw, 2.3rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: 0.08em;
+  margin: 0.7rem 0 0 0.45rem;
+}
+
+.motion-script {
+  display: block;
+  width: max-content;
+  margin: 0.15rem 0 0 15rem;
+  color: #BE4B4D;
+  font-family: var(--font-hand);
+  font-size: clamp(5rem, 7vw, 7.5rem);
+  font-weight: 700;
+  line-height: 0.9;
+  transform: rotate(-5deg);
+}
+
+.motion-character {
+  position: absolute;
+  right: 7%;
+  bottom: 1.4rem;
+  width: min(540px, 43vw);
+  height: auto;
+  display: block;
+  z-index: 4;
+  filter: drop-shadow(0 16px 26px rgba(27, 30, 52, 0.1));
+}
+
+.motion-bottom-bar {
+  position: absolute;
+  left: 50%;
+  bottom: 1.5rem;
+  width: 88%;
+  height: 76px;
+  transform: translateX(-50%);
+  background: #2B2A48;
+  z-index: 2;
+}
+
+/* =========================================================
+   MOTION DESIGN VIDEO GALLERY
+   ========================================================= */
+.motion-gallery-section {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2.5rem 4rem 4rem;
+  background: var(--bg-color);
+}
+
+.motion-gallery-grid {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  display: grid;
+  gap: 1.35rem;
+}
+
+.motion-gallery-top {
+  grid-template-columns: 1fr 1fr 1.34fr 3.18fr;
+  align-items: stretch;
+  margin-bottom: 2.8rem;
+}
+
+.motion-gallery-bottom {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5.8rem;
+}
+
+.motion-video-card {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #101016;
+}
+
+.motion-gallery-top .motion-video-portrait {
+  aspect-ratio: 9 / 16;
+}
+
+.motion-gallery-top .motion-video-poster {
+  aspect-ratio: 3 / 4;
+}
+
+.motion-video-wide {
+  aspect-ratio: 16 / 9;
+}
+
+.motion-video-card video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  background: #101016;
+}
+
+/* =========================================================
+   SOCIAL MEDIA CREATIVES
+   ========================================================= */
+.social-creatives-section {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2rem 4rem 3rem;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-color);
+}
+
+.social-creatives-backdrop {
+  position: absolute;
+  top: 7.5rem;
+  left: clamp(1.5rem, 4vw, 4rem);
+  color: rgba(49, 49, 76, 0.055);
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(8rem, 14vw, 13rem);
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+.social-creatives-grid {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 2.2rem 3rem;
+  position: relative;
+  z-index: 2;
+}
+
+.social-creatives-heading {
+  grid-column: 1 / 3;
+  align-self: start;
+  padding: 2.2rem 0 0 2.5rem;
+  color: #2B2A48;
+}
+
+.social-creatives-heading p {
+  position: relative;
+  width: max-content;
+  padding-left: 1.5rem;
+  font-size: clamp(1.25rem, 1.8vw, 1.7rem);
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.social-creatives-heading p::before {
+  content: '';
+  position: absolute;
+  top: 0.5em;
+  left: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #2B2A48;
+}
+
+.social-creatives-heading h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(4.4rem, 5.3vw, 6rem);
+  font-weight: 700;
+  line-height: 0.95;
+  letter-spacing: 0.025em;
+  margin: 0.25rem 0 0 1.5rem;
+  white-space: nowrap;
+}
+
+.social-video-card {
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #101016;
+}
+
+.social-video-card video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  background: #101016;
+}
+
+/* =========================================================
+   PRODUCT PACKAGING DESIGN
+   ========================================================= */
+.product-design-section {
+  width: 100%;
+  max-width: 1600px;
+  min-height: 830px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  background: var(--bg-color);
+}
+
+.product-design-backdrop {
+  position: absolute;
+  inset: 0;
+  color: rgba(49, 49, 76, 0.05);
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(12rem, 20vw, 19rem);
+  font-weight: 700;
+  line-height: 0.94;
+  letter-spacing: -0.02em;
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+.product-design-backdrop span {
+  position: absolute;
+  white-space: nowrap;
+}
+
+.product-design-backdrop span:first-child {
+  top: -2.5rem;
+  left: 19%;
+}
+
+.product-design-backdrop span:last-child {
+  left: 8%;
+  bottom: -1.5rem;
+}
+
+.product-design-heading {
+  position: absolute;
+  top: 1.5rem;
+  left: 17%;
+  z-index: 2;
+}
+
+.product-design-heading p {
+  color: #BE4B4D;
+  font-size: clamp(1.7rem, 2.5vw, 2.5rem);
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.035em;
+}
+
+.product-design-heading h2 {
+  color: #2B2A48;
+  font-family: 'Oswald', sans-serif;
+  font-size: clamp(10rem, 16vw, 15.5rem);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.035em;
+}
+
+.product-design-artwork {
+  position: absolute;
+  top: 3.5rem;
+  left: 29%;
+  width: min(1120px, 72%);
+  height: auto;
+  display: block;
+  z-index: 3;
+  filter: drop-shadow(0 18px 28px rgba(27, 30, 52, 0.08));
+}
+
+/* =========================================================
+   PRODUCT PACKAGING GALLERY
+   ========================================================= */
+.product-gallery-section {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 2.5rem 4rem 4rem;
+  background: var(--bg-color);
+}
+
+.product-gallery-grid {
+  width: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.product-gallery-card {
+  width: 100%;
+  aspect-ratio: 0.69;
+  margin: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+.product-gallery-card img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+
+/* =========================================================
+   RESPONSIVE DESIGN (Tablets & Mobile)
+   ========================================================= */
+@media (max-width: 1200px) {
+  .hero-section {
+    height: auto;
+  }
+
+  .node-video-editing {
+    left: 5%;
+    top: 320px;
+  }
+
+  .node-ai-content {
+    left: 4%;
+    top: 620px;
+  }
+
+  .node-graphic-design {
+    right: 5%;
+    top: 380px;
+  }
+
+  .node-design-pill {
+    right: 2%;
+    top: 320px;
+  }
+
+  .node-brand-creative {
+    right: 4%;
+    top: 620px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-container {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .about-avatar-col {
+    order: -1;
+  }
+
+  .avatar-sticker-wrapper {
+    max-width: 400px;
+    /* At 400px wide: hoodie end at 57% = ~408px */
+    height: 410px;
+  }
+
+  .about-info-col .spider-thread-container {
+    top: -56px;
+    right: 20px;
+  }
+
+  .about-details-container {
+    grid-template-columns: 1fr;
+  }
+
+  .about-details-content {
+    padding: 0.5rem 2rem;
+  }
+
+  .about-details-visual {
+    min-height: 460px;
+  }
+
+  .about-details-img {
+    top: -2rem;
+    width: min(430px, 90%);
+  }
+
+  .work-heading-area {
+    min-height: 500px;
+  }
+
+  .work-spider {
+    left: 24%;
+    width: 76px;
+  }
+
+  .work-title-group {
+    top: 8.5rem;
+  }
+
+  .work-categories {
+    top: 19rem;
+    left: 13%;
+  }
+
+  .portfolio-video-grid {
+    gap: 1rem;
+  }
+
+  .portfolio-video-grid-top,
+  .portfolio-video-grid-bottom {
+    margin-bottom: 1rem;
+  }
+
+  .motion-intro-section {
+    min-height: 650px;
+  }
+
+  .motion-copy {
+    left: 8%;
+  }
+
+  .motion-script {
+    margin-left: 9rem;
+  }
+
+  .motion-character {
+    right: 1%;
+    width: min(490px, 52vw);
+  }
+
+  .motion-gallery-section {
+    padding-inline: 2rem;
+  }
+
+  .motion-gallery-top {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .motion-gallery-top .motion-video-wide {
+    grid-column: 1 / -1;
+  }
+
+  .motion-gallery-bottom {
+    gap: 1.5rem;
+  }
+
+  .social-creatives-section {
+    padding-inline: 2rem;
+  }
+
+  .social-creatives-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+  }
+
+  .social-creatives-heading {
+    grid-column: 1 / -1;
+    padding: 1rem 0 0;
+  }
+
+  .product-design-section {
+    min-height: 720px;
+  }
+
+  .product-design-heading {
+    left: 7%;
+  }
+
+  .product-design-artwork {
+    top: 6rem;
+    left: 13%;
+    width: 90%;
+  }
+
+  .product-gallery-section {
+    padding-inline: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .top-nav {
+    padding: 1.2rem 1.5rem;
+  }
+
+  .hero-section {
+    padding: 0 0 1.5rem;
+  }
+
+  .about-section {
+    padding: 1rem 1.2rem;
+  }
+
+  .avatar-sticker-wrapper {
+    max-width: 300px;
+    height: 320px;
+  }
+
+  .about-banner-bar {
+    height: 46px;
+    margin-bottom: 2rem;
+  }
+
+  .about-name {
+    font-size: 2.8rem;
+  }
+
+  .tool-icon-card {
+    width: 52px;
+    height: 52px;
+  }
+
+  .about-details-section {
+    padding: 2.5rem 1.2rem 3rem;
+  }
+
+  .about-details-content {
+    padding: 0 0.8rem;
+  }
+
+  .details-block+.details-block {
+    margin-top: 2.5rem;
+  }
+
+  .details-heading {
+    font-size: 2rem;
+  }
+
+  .expertise-list {
+    grid-template-columns: 1fr;
+  }
+
+  .about-details-visual {
+    min-height: 390px;
+  }
+
+  .about-details-img {
+    width: min(360px, 100%);
+  }
+
+  .work-section {
+    padding: 0 1.2rem 1rem;
+  }
+
+  .work-heading-area {
+    min-height: 420px;
+  }
+
+  .work-title-backdrop {
+    top: 0;
+    font-size: clamp(5.5rem, 28vw, 8rem);
+  }
+
+  .work-spider {
+    top: -1rem;
+    left: 20%;
+    width: 60px;
+  }
+
+  .work-title-group {
+    top: 7rem;
+  }
+
+  .work-title {
+    font-size: clamp(3.1rem, 15vw, 4.5rem);
+  }
+
+  .work-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .work-categories {
+    top: 16.5rem;
+    left: 2rem;
+    font-size: 1.1rem;
+    line-height: 1.65;
+  }
+
+  .work-category-banner {
+    min-height: 64px;
+  }
+
+  .video-showcase {
+    padding-top: 2rem;
+  }
+
+  .video-showcase-intro {
+    margin-bottom: 1.8rem;
+  }
+
+  .portfolio-video-grid-top,
+  .portfolio-video-grid-bottom {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .portfolio-video-grid-top .landscape-video,
+  .portfolio-video-grid-bottom .landscape-video {
+    grid-column: 1 / -1;
+    aspect-ratio: 16 / 9;
+  }
+
+  .portfolio-video-grid-bottom .landscape-video {
+    grid-row: auto;
+  }
+
+  .motion-intro-section {
+    min-height: 720px;
+  }
+
+  .motion-backdrop {
+    inset: 1.5rem 0 0;
+    font-size: clamp(8rem, 36vw, 11.5rem);
+  }
+
+  .motion-copy {
+    top: 2.5rem;
+    left: 1.5rem;
+    right: 1.5rem;
+  }
+
+  .motion-label {
+    margin-bottom: 1.4rem;
+  }
+
+  .motion-copy h2 {
+    font-size: clamp(4.6rem, 21vw, 6.5rem);
+  }
+
+  .motion-kicker {
+    font-size: clamp(1.15rem, 5.5vw, 1.55rem);
+  }
+
+  .motion-script {
+    margin: 0.35rem 0 0 6rem;
+    font-size: clamp(4.5rem, 21vw, 6rem);
+  }
+
+  .motion-character {
+    right: -7%;
+    bottom: 1.25rem;
+    width: min(520px, 96vw);
+  }
+
+  .motion-bottom-bar {
+    bottom: 1.5rem;
+    width: 94%;
+    height: 62px;
+  }
+
+  .motion-gallery-section {
+    padding: 2rem 1.2rem 3rem;
+  }
+
+  .motion-gallery-top {
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .motion-gallery-bottom {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .social-creatives-section {
+    padding: 2.5rem 1.2rem 3rem;
+  }
+
+  .social-creatives-backdrop {
+    top: 9rem;
+    left: 1rem;
+    font-size: clamp(6.5rem, 22vw, 10rem);
+  }
+
+  .social-creatives-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .social-creatives-heading h2 {
+    margin-left: 0;
+    font-size: clamp(4rem, 20vw, 6rem);
+  }
+
+  .product-design-section {
+    min-height: 620px;
+  }
+
+  .product-design-backdrop {
+    font-size: clamp(9rem, 42vw, 13rem);
+  }
+
+  .product-design-backdrop span:first-child {
+    top: 1rem;
+    left: -4rem;
+  }
+
+  .product-design-backdrop span:last-child {
+    left: -2rem;
+    bottom: 0;
+  }
+
+  .product-design-heading {
+    top: 2rem;
+    left: 1.2rem;
+  }
+
+  .product-design-heading p {
+    font-size: clamp(1.35rem, 7vw, 2rem);
+  }
+
+  .product-design-heading h2 {
+    font-size: clamp(6rem, 28vw, 9rem);
+  }
+
+  .product-design-artwork {
+    top: 12rem;
+    left: -20%;
+    width: 145%;
+  }
+
+  .product-gallery-section {
+    padding: 2rem 1.2rem 3rem;
+  }
+
+  .product-gallery-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+
+  .product-gallery-card {
+    width: min(100%, 460px);
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .top-nav {
+    padding: 0.9rem 0.85rem;
+    gap: 0.75rem;
+  }
+
+  .brand-tag {
+    gap: 0.4rem;
+    font-size: 0.72rem;
+    letter-spacing: 0.045em;
+  }
+
+  .brand-dot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .page-switcher {
+    gap: 0.15rem;
+  }
+
+  .nav-btn {
+    padding: 0.3rem 0.4rem;
+    font-size: 0.76rem;
+  }
+
+  .nav-btn.active::after {
+    left: 0.4rem;
+    right: 0.4rem;
+  }
+
+  .hero-section {
+    padding-bottom: 0.75rem;
+  }
+
+  .about-section {
+    padding: 0.75rem;
+  }
+
+  .about-banner-bar {
+    height: 42px;
+    margin-bottom: 1.25rem;
+  }
+
+  .about-banner-title {
+    font-size: 1rem;
+  }
+
+  .about-container {
+    gap: 1.5rem;
+  }
+
+  .avatar-sticker-wrapper {
+    max-width: 250px;
+    height: 270px;
+  }
+
+  .about-info-col {
+    padding-top: 0;
+  }
+
+  .about-info-col .spider-thread-container {
+    top: -30px;
+    right: -0.25rem;
+  }
+
+  .hanging-spider {
+    width: 60px;
+    height: 88px;
+  }
+
+  .spider-img {
+    width: 60px;
+    transform: translateY(-91px);
+  }
+
+  .about-greeting-row {
+    max-width: calc(100% - 52px);
+    padding-right: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.1rem;
+  }
+
+  .about-greeting {
+    font-size: 1.3rem;
+  }
+
+  .about-aka {
+    font-size: 1.65rem;
+  }
+
+  .about-name {
+    font-size: clamp(2.15rem, 12vw, 3rem);
+    margin-top: 0.45rem;
+  }
+
+  .about-role {
+    max-width: calc(100% - 42px);
+    font-size: 0.88rem;
+    line-height: 1.45;
+    letter-spacing: 0.025em;
+  }
+
+  .about-description {
+    font-size: 0.94rem;
+    line-height: 1.65;
+    margin-bottom: 1.5rem;
+  }
+
+  .software-tools-row {
+    gap: 0.6rem;
+  }
+
+  .tool-icon-card {
+    width: 44px;
+    height: 44px;
+    border-radius: 10px;
+  }
+
+  .about-details-section {
+    padding: 2rem 0.9rem 2.5rem;
+  }
+
+  .about-details-content {
+    padding: 0 0.5rem;
+  }
+
+  .details-heading {
+    font-size: clamp(1.7rem, 9vw, 2.2rem);
+  }
+
+  .details-heading::before {
+    left: -0.9rem;
+    width: 6px;
+    height: 6px;
+  }
+
+  .details-intro,
+  .experience-item h3,
+  .expertise-list li {
+    font-size: 0.9rem;
+  }
+
+  .about-details-visual {
+    min-height: 330px;
+  }
+
+  .about-details-img {
+    top: 0;
+    width: min(300px, 96%);
+  }
+
+  .work-section {
+    padding-inline: 0.75rem;
+  }
+
+  .work-heading-area {
+    min-height: 350px;
+  }
+
+  .work-title-backdrop {
+    top: 0.5rem;
+    font-size: clamp(4.8rem, 27vw, 6.8rem);
+  }
+
+  .work-spider {
+    left: 13%;
+    width: 52px;
+  }
+
+  .work-title-group {
+    top: 5.8rem;
+  }
+
+  .work-title {
+    font-size: clamp(2.8rem, 15vw, 4rem);
+  }
+
+  .work-subtitle {
+    font-size: 0.72rem;
+    letter-spacing: 0.025em;
+  }
+
+  .work-categories {
+    top: 13.4rem;
+    left: 2rem;
+    font-size: 0.95rem;
+  }
+
+  .work-category-banner {
+    min-height: 56px;
+    padding: 0.8rem 1rem;
+  }
+
+  .work-category-banner h3 {
+    font-size: 1.2rem;
+  }
+
+  .video-showcase-intro h4 {
+    font-size: 1.08rem;
+  }
+
+  .video-showcase-intro p {
+    font-size: 0.88rem;
+  }
+
+  .portfolio-video-grid-top,
+  .portfolio-video-grid-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-video-grid-top .landscape-video,
+  .portfolio-video-grid-bottom .landscape-video {
+    grid-column: auto;
+  }
+
+  .portfolio-video-card.portrait-video {
+    width: min(100%, 320px);
+    margin: 0 auto;
+  }
+
+  .motion-intro-section {
+    min-height: 650px;
+  }
+
+  .motion-copy {
+    top: 2rem;
+    left: 1rem;
+    right: 1rem;
+  }
+
+  .motion-label {
+    margin-bottom: 1rem;
+    font-size: 1.05rem;
+  }
+
+  .motion-copy h2 {
+    font-size: clamp(3.8rem, 20vw, 5rem);
+  }
+
+  .motion-script {
+    margin-left: 4.5rem;
+    font-size: clamp(4rem, 20vw, 5.3rem);
+  }
+
+  .motion-character {
+    right: -14%;
+    width: min(540px, 110vw);
+  }
+
+  .motion-gallery-section,
+  .social-creatives-section,
+  .product-gallery-section {
+    padding-inline: 0.75rem;
+  }
+
+  .social-creatives-backdrop {
+    left: 0.75rem;
+    font-size: clamp(4.5rem, 19vw, 6rem);
+  }
+
+  .motion-gallery-top,
+  .social-creatives-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .motion-gallery-top .motion-video-wide {
+    grid-column: auto;
+  }
+
+  .motion-gallery-top .motion-video-portrait,
+  .motion-gallery-top .motion-video-poster,
+  .social-video-card {
+    width: min(100%, 330px);
+    margin: 0 auto;
+  }
+
+  .social-creatives-heading {
+    padding-top: 0;
+  }
+
+  .social-creatives-heading p {
+    font-size: 1.05rem;
+  }
+
+  .social-creatives-heading h2 {
+    font-size: clamp(3.8rem, 19vw, 5.2rem);
+  }
+
+  .product-design-section {
+    min-height: 590px;
+  }
+
+  .product-design-heading h2 {
+    font-size: clamp(5.5rem, 27vw, 7.5rem);
+  }
+
+  .product-design-artwork {
+    top: 11rem;
+    left: -24%;
+    width: 152%;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-video-grid-top,
+  .portfolio-video-grid-bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio-video-grid-top .landscape-video,
+  .portfolio-video-grid-bottom .landscape-video {
+    grid-column: auto;
+  }
+
+  .motion-gallery-top {
+    grid-template-columns: 1fr;
+  }
+
+  .motion-gallery-top .motion-video-wide {
+    grid-column: auto;
+  }
+
+  .motion-gallery-top .motion-video-portrait,
+  .motion-gallery-top .motion-video-poster {
+    max-height: 520px;
+  }
+
+  .social-creatives-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .social-video-card {
+    width: min(100%, 330px);
+    margin: 0 auto;
+  }
+}
