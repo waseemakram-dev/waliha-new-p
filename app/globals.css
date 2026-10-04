@@ -1371,11 +1371,12 @@ body {
 .product-design-section {
   width: 100%;
   max-width: 1600px;
-  min-height: 830px;
+  min-height: 920px;
   margin: 0 auto;
   position: relative;
-  overflow: hidden;
+  overflow: clip;
   background: var(--bg-color);
+  padding-bottom: 4rem;
 }
 
 .product-design-backdrop {
@@ -1433,7 +1434,7 @@ body {
 
 .product-design-artwork {
   position: absolute;
-  top: 3.5rem;
+  top: 2rem;
   left: 29%;
   width: min(1120px, 72%);
   height: auto;
@@ -1626,7 +1627,9 @@ body {
   }
 
   .product-design-section {
-    min-height: 720px;
+    min-height: 840px;
+    height: auto;
+    padding-bottom: 3.5rem;
   }
 
   .product-design-heading {
@@ -1634,9 +1637,9 @@ body {
   }
 
   .product-design-artwork {
-    top: 6rem;
-    left: 13%;
-    width: 90%;
+    top: 3rem;
+    left: 14%;
+    width: 86%;
   }
 
   .product-gallery-section {
@@ -1848,7 +1851,9 @@ body {
   }
 
   .product-design-section {
-    min-height: 620px;
+    min-height: 720px;
+    height: auto;
+    padding-bottom: 3rem;
   }
 
   .product-design-backdrop {
@@ -1879,9 +1884,9 @@ body {
   }
 
   .product-design-artwork {
-    top: 12rem;
-    left: -20%;
-    width: 145%;
+    top: 8rem;
+    left: -12%;
+    width: 130%;
   }
 
   .product-gallery-section {
@@ -2190,7 +2195,9 @@ body {
   }
 
   .product-design-section {
-    min-height: 590px;
+    min-height: 660px;
+    height: auto;
+    padding-bottom: 2.5rem;
   }
 
   .product-design-heading h2 {
@@ -2198,9 +2205,9 @@ body {
   }
 
   .product-design-artwork {
-    top: 11rem;
-    left: -24%;
-    width: 152%;
+    top: 8rem;
+    left: -15%;
+    width: 135%;
   }
 }
 
@@ -2762,8 +2769,9 @@ body {
   }
 
   .product-design-section {
-    min-height: 768px;
-    height: 768px;
+    min-height: 920px;
+    height: auto;
+    padding-bottom: 4rem;
   }
 
   .product-gallery-section {

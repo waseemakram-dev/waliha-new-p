@@ -1,0 +1,107 @@
+{
+  "hero_video.mp4": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/video/upload/v1791096406/waliha-portfolio/hero/hero_video.mp4",
+    "public_id": "waliha-portfolio/hero/hero_video",
+    "format": "mp4",
+    "resource_type": "video",
+    "bytes": 2679480
+  },
+  "waliha.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096407/waliha-portfolio/profile/waliha_avatar.png",
+    "public_id": "waliha-portfolio/profile/waliha_avatar",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 980055
+  },
+  "spider.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096408/waliha-portfolio/elements/spider.png",
+    "public_id": "waliha-portfolio/elements/spider",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 122933
+  },
+  "icon_pr.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096409/waliha-portfolio/icons/icon_premiere_pro.png",
+    "public_id": "waliha-portfolio/icons/icon_premiere_pro",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 24387
+  },
+  "icon_ae.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096410/waliha-portfolio/icons/icon_after_effects.png",
+    "public_id": "waliha-portfolio/icons/icon_after_effects",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 36370
+  },
+  "icon_ps.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096411/waliha-portfolio/icons/icon_photoshop.png",
+    "public_id": "waliha-portfolio/icons/icon_photoshop",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 11539
+  },
+  "icon_ai.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096411/waliha-portfolio/icons/icon_illustrator.png",
+    "public_id": "waliha-portfolio/icons/icon_illustrator",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 29576
+  },
+  "icon_davinci.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096412/waliha-portfolio/icons/icon_davinci_resolve.png",
+    "public_id": "waliha-portfolio/icons/icon_davinci_resolve",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 323199
+  },
+  "icon_figma.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096413/waliha-portfolio/icons/icon_figma.png",
+    "public_id": "waliha-portfolio/icons/icon_figma",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 58934
+  },
+  "ChatGPT Image Sep 27, 2026, 04_20_51 PM.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096414/waliha-portfolio/artworks/artwork_creative_1.png",
+    "public_id": "waliha-portfolio/artworks/artwork_creative_1",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 1154630
+  },
+  "ChatGPT Image Sep 27, 2026, 05_18_39 PM.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096416/waliha-portfolio/artworks/about_details_visual.png",
+    "public_id": "waliha-portfolio/artworks/about_details_visual",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 1358480
+  },
+  "ChatGPT Image Sep 27, 2026, 05_51_13 PM.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096417/waliha-portfolio/artworks/motion_character.png",
+    "public_id": "waliha-portfolio/artworks/motion_character",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 1225506
+  },
+  "ChatGPT Image Sep 27, 2026, 06_04_19 PM.png": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096419/waliha-portfolio/artworks/product_design_artwork.png",
+    "public_id": "waliha-portfolio/artworks/product_design_artwork",
+    "format": "png",
+    "resource_type": "image",
+    "bytes": 2338684
+  },
+  "brush.jpg": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096420/waliha-portfolio/textures/brush_texture.jpg",
+    "public_id": "waliha-portfolio/textures/brush_texture",
+    "format": "jpg",
+    "resource_type": "image",
+    "bytes": 238994
+  },
+  "pencil.jpg": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791096421/waliha-portfolio/textures/pencil_texture.jpg",
+    "public_id": "waliha-portfolio/textures/pencil_texture",
+    "format": "jpg",
+    "resource_type": "image",
+    "bytes": 252344
+  }
+}
