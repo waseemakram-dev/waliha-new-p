@@ -45,6 +45,69 @@ body {
   background-size: 24px 24px;
 }
 
+/* =========================================================
+   SCROLL REVEAL ANIMATIONS
+   ========================================================= */
+.js-animations .scroll-reveal {
+  --reveal-x: 0px;
+  --reveal-y: 0px;
+  --reveal-scale: 0.985;
+  opacity: 0;
+  translate: var(--reveal-x) var(--reveal-y);
+  scale: var(--reveal-scale);
+  filter: blur(5px);
+  transition:
+    opacity 700ms cubic-bezier(0.16, 1, 0.3, 1),
+    translate 850ms cubic-bezier(0.16, 1, 0.3, 1),
+    scale 850ms cubic-bezier(0.16, 1, 0.3, 1),
+    filter 650ms ease;
+  transition-delay: var(--reveal-delay, 0ms);
+  will-change: opacity, translate, scale, filter;
+}
+
+.js-animations .scroll-reveal.reveal-from-left {
+  --reveal-x: -56px;
+}
+
+.js-animations .scroll-reveal.reveal-from-right {
+  --reveal-x: 56px;
+}
+
+.js-animations .scroll-reveal.reveal-from-top {
+  --reveal-y: -38px;
+}
+
+.js-animations .scroll-reveal.reveal-from-bottom {
+  --reveal-y: 42px;
+}
+
+.js-animations .scroll-reveal.reveal-fade {
+  --reveal-scale: 0.94;
+}
+
+.js-animations .scroll-reveal.reveal-wipe {
+  --reveal-scale: 0 1;
+  transform-origin: left center;
+  filter: none;
+}
+
+.js-animations .scroll-reveal.is-visible {
+  opacity: 1;
+  translate: 0 0;
+  scale: 1;
+  filter: blur(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .js-animations .scroll-reveal {
+    opacity: 1;
+    translate: none;
+    scale: 1;
+    filter: none;
+    transition: none;
+  }
+}
+
 /* Master Container */
 .portfolio-container {
   max-width: 1600px;
@@ -2172,5 +2235,538 @@ body {
   .social-video-card {
     width: min(100%, 330px);
     margin: 0 auto;
+  }
+}
+
+/* =========================================================
+   CANVA-STYLE MOBILE PRESENTATION
+   Keep the desktop composition compact instead of stacking
+   every visual into one long single-column page.
+   ========================================================= */
+@media (max-width: 600px) {
+  .top-nav {
+    min-height: 48px;
+    padding: 0.55rem 0.75rem;
+  }
+
+  .brand-tag {
+    font-size: 0.64rem;
+  }
+
+  .nav-btn {
+    font-size: 0.72rem;
+  }
+
+  .hero-section {
+    padding: 0;
+  }
+
+  .hero-video,
+  .hero-video-wrapper {
+    aspect-ratio: 16 / 9;
+  }
+
+  .about-section {
+    height: auto;
+    min-height: 211px;
+    padding: 0.45rem 0.65rem;
+    overflow: hidden;
+  }
+
+  .about-banner-bar {
+    height: 22px;
+    margin-bottom: 0.45rem;
+  }
+
+  .about-banner-title {
+    font-size: 0.62rem;
+  }
+
+  .about-container {
+    grid-template-columns: 37% minmax(0, 63%);
+    gap: 0.65rem;
+    align-items: start;
+  }
+
+  .about-avatar-col {
+    order: initial;
+  }
+
+  .avatar-sticker-wrapper {
+    width: 100%;
+    max-width: none;
+    height: 176px;
+  }
+
+  .about-info-col {
+    padding-top: 0.1rem;
+  }
+
+  .about-info-col .spider-thread-container {
+    top: -0.1rem;
+    right: 0;
+  }
+
+  .hanging-spider {
+    width: 26px;
+    height: 42px;
+  }
+
+  .spider-img {
+    width: 26px;
+    transform: translateY(-39px);
+  }
+
+  .about-header-group {
+    margin-bottom: 0.35rem;
+  }
+
+  .about-greeting-row {
+    max-width: calc(100% - 24px);
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.25rem;
+  }
+
+  .about-greeting {
+    font-size: 0.58rem;
+  }
+
+  .about-aka {
+    font-size: 0.72rem;
+  }
+
+  .about-name {
+    margin: 0.08rem 0;
+    font-size: clamp(1.25rem, 6vw, 1.55rem);
+  }
+
+  .about-role {
+    max-width: calc(100% - 20px);
+    margin: 0.1rem 0 0.35rem;
+    font-size: 0.46rem;
+    line-height: 1.25;
+  }
+
+  .about-description {
+    margin-bottom: 0.35rem;
+    font-size: 0.43rem;
+    line-height: 1.35;
+  }
+
+  .about-description p {
+    margin-bottom: 0.2rem;
+  }
+
+  .software-tools-row {
+    gap: 0.25rem;
+    margin-top: 0.2rem;
+  }
+
+  .tool-icon-card {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+  }
+
+  .about-details-section {
+    min-height: 211px;
+    padding: 0.75rem 0.8rem;
+  }
+
+  .about-details-container {
+    min-height: 188px;
+    grid-template-columns: minmax(0, 1.18fr) minmax(120px, 0.82fr);
+    align-items: stretch;
+  }
+
+  .about-details-content {
+    padding: 0 0 0 0.55rem;
+  }
+
+  .details-block + .details-block {
+    margin-top: 0.65rem;
+  }
+
+  .details-heading {
+    margin-bottom: 0.35rem;
+    font-size: 0.86rem;
+  }
+
+  .details-heading::before {
+    left: -0.5rem;
+    width: 4px;
+    height: 4px;
+  }
+
+  .details-intro {
+    margin-bottom: 0.15rem;
+    font-size: 0.42rem;
+    line-height: 1.35;
+  }
+
+  .experience-list {
+    gap: 0.25rem;
+    margin-top: 0.35rem;
+  }
+
+  .experience-item {
+    padding-left: 0.35rem;
+    border-left-width: 1px;
+  }
+
+  .experience-item h3,
+  .expertise-list li {
+    font-size: 0.43rem;
+    line-height: 1.25;
+  }
+
+  .experience-item span {
+    margin-top: 0;
+    font-size: 0.38rem;
+  }
+
+  .expertise-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.18rem 0.35rem;
+  }
+
+  .expertise-list li {
+    padding-left: 0.35rem;
+  }
+
+  .expertise-list li::before {
+    top: 0.48em;
+    width: 2px;
+    height: 2px;
+  }
+
+  .about-details-visual {
+    min-height: 188px;
+  }
+
+  .about-details-img {
+    top: -1.3rem;
+    width: 235px;
+  }
+
+  .work-section {
+    padding: 0 0.65rem 0.75rem;
+  }
+
+  .work-heading-area {
+    min-height: 211px;
+  }
+
+  .work-title-backdrop {
+    top: 0;
+    font-size: 5.1rem;
+  }
+
+  .work-spider {
+    top: -0.2rem;
+    left: 21%;
+    width: 30px;
+  }
+
+  .work-title-group {
+    top: 3.55rem;
+  }
+
+  .work-title {
+    font-size: 2.35rem;
+  }
+
+  .work-subtitle {
+    margin-top: 0.15rem;
+    font-size: 0.48rem;
+  }
+
+  .work-categories {
+    top: 8.2rem;
+    left: 2rem;
+    font-size: 0.58rem;
+    line-height: 1.5;
+  }
+
+  .work-category-banner {
+    min-height: 28px;
+    padding: 0.3rem;
+  }
+
+  .work-category-banner h3 {
+    font-size: 0.72rem;
+  }
+
+  .video-showcase {
+    padding: 0.8rem 0 0;
+  }
+
+  .video-showcase-intro {
+    margin-bottom: 0.7rem;
+  }
+
+  .video-showcase-intro h4 {
+    margin-bottom: 0.2rem;
+    padding-left: 0.75rem;
+    font-size: 0.7rem;
+  }
+
+  .video-showcase-intro h4::before {
+    left: 0.1rem;
+    width: 4px;
+    height: 4px;
+  }
+
+  .video-showcase-intro p {
+    font-size: 0.48rem;
+    line-height: 1.35;
+  }
+
+  .portfolio-video-grid {
+    gap: 0.35rem;
+  }
+
+  .portfolio-video-grid-top {
+    grid-template-columns: 1fr 1fr 3.17fr;
+    margin-bottom: 0.35rem;
+  }
+
+  .portfolio-video-grid-bottom {
+    grid-template-columns: 3.17fr 1fr 1fr 1fr;
+    margin-bottom: 0;
+  }
+
+  .portfolio-video-grid-top .landscape-video,
+  .portfolio-video-grid-bottom .landscape-video {
+    grid-column: auto;
+  }
+
+  .portfolio-video-card.portrait-video {
+    width: 100%;
+    margin: 0;
+  }
+
+  .portfolio-video-card {
+    border-radius: 4px;
+  }
+
+  .motion-intro-section {
+    min-height: 211px;
+    height: 211px;
+  }
+
+  .motion-backdrop {
+    inset: 0.4rem 0 0;
+    font-size: 4.4rem;
+  }
+
+  .motion-copy {
+    top: 0.75rem;
+    left: 2.4rem;
+    right: auto;
+  }
+
+  .motion-label {
+    margin-bottom: 0.45rem;
+    padding-left: 0.7rem;
+    font-size: 0.62rem;
+  }
+
+  .motion-label::before {
+    width: 4px;
+    height: 4px;
+  }
+
+  .motion-copy h2 {
+    font-size: 2.8rem;
+  }
+
+  .motion-kicker {
+    margin: 0.25rem 0 0 0.2rem;
+    font-size: 0.72rem;
+  }
+
+  .motion-script {
+    margin: 0 0 0 3.6rem;
+    font-size: 2.9rem;
+  }
+
+  .motion-character {
+    right: 1%;
+    bottom: 0.4rem;
+    width: 148px;
+  }
+
+  .motion-bottom-bar {
+    bottom: 0.45rem;
+    width: 88%;
+    height: 24px;
+  }
+
+  .motion-gallery-section {
+    padding: 0.75rem 0.8rem;
+  }
+
+  .motion-gallery-grid {
+    gap: 0.35rem;
+  }
+
+  .motion-gallery-top {
+    grid-template-columns: 1fr 1fr 1.34fr 3.18fr;
+    margin-bottom: 0.55rem;
+  }
+
+  .motion-gallery-top .motion-video-wide {
+    grid-column: auto;
+  }
+
+  .motion-gallery-top .motion-video-portrait,
+  .motion-gallery-top .motion-video-poster {
+    width: 100%;
+    max-height: none;
+    margin: 0;
+  }
+
+  .motion-gallery-bottom {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+  }
+
+  .motion-video-card {
+    border-radius: 4px;
+  }
+
+  .social-creatives-section {
+    padding: 0.75rem 0.8rem;
+  }
+
+  .social-creatives-backdrop {
+    top: 2.6rem;
+    left: 0.6rem;
+    font-size: 4.5rem;
+  }
+
+  .social-creatives-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 0.45rem 0.65rem;
+  }
+
+  .social-creatives-heading {
+    grid-column: 1 / 3;
+    padding: 0.55rem 0 0 0.45rem;
+  }
+
+  .social-creatives-heading p {
+    padding-left: 0.55rem;
+    font-size: 0.62rem;
+  }
+
+  .social-creatives-heading p::before {
+    width: 3px;
+    height: 3px;
+  }
+
+  .social-creatives-heading h2 {
+    margin: 0.08rem 0 0 0.5rem;
+    font-size: 2rem;
+  }
+
+  .social-video-card {
+    width: 100%;
+    margin: 0;
+    border-radius: 4px;
+  }
+
+  .product-design-section {
+    min-height: 211px;
+    height: 211px;
+  }
+
+  .product-design-backdrop {
+    font-size: 5.3rem;
+  }
+
+  .product-design-backdrop span:first-child {
+    top: -0.4rem;
+    left: 17%;
+  }
+
+  .product-design-backdrop span:last-child {
+    left: 6%;
+    bottom: -0.25rem;
+  }
+
+  .product-design-heading {
+    top: 0.55rem;
+    left: 7%;
+  }
+
+  .product-design-heading p {
+    font-size: 0.8rem;
+  }
+
+  .product-design-heading h2 {
+    font-size: 4.7rem;
+  }
+
+  .product-design-artwork {
+    top: 1.45rem;
+    left: 25%;
+    width: 72%;
+  }
+
+  .product-gallery-section {
+    padding: 0.75rem 0.8rem;
+  }
+
+  .product-gallery-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 0.45rem;
+  }
+
+  .product-gallery-card {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (min-width: 993px) {
+  .hero-section,
+  .hero-video-wrapper,
+  .hero-video {
+    height: 768px;
+  }
+
+  .hero-video {
+    aspect-ratio: auto;
+    object-fit: cover;
+  }
+
+  .about-section {
+    min-height: 768px;
+  }
+
+  .motion-intro-section {
+    min-height: 768px;
+  }
+
+  .motion-gallery-section {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .social-creatives-grid {
+    max-width: 1120px;
+    gap: 2rem;
+  }
+
+  .product-design-section {
+    min-height: 768px;
+    height: 768px;
+  }
+
+  .product-gallery-section {
+    padding-bottom: 8rem;
   }
 }
