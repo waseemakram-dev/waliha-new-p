@@ -124,3 +124,7 @@ desktop.ini
 /public/assets/waliha.png
 /artifacts/
 # END unused portfolio assets
+/public/assets/assets/
+/public/assets/mockups/*.png
+/public/assets/mockups/banners.webp
+/artifacts/
