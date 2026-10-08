@@ -128,3 +128,6 @@ desktop.ini
 /public/assets/mockups/*.png
 /public/assets/mockups/banners.webp
 /artifacts/
+
+# Media is delivered from Cloudinary; keep local source files off GitHub.
+/public/assets/

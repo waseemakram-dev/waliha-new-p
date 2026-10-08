@@ -1,0 +1,866 @@
+{
+  "/assets/portfolio/7e0744b0e1e069a9.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470189/waliha-portfolio/portfolio/7e0744b0e1e069a9-58ba2102f7a0.webp",
+    "public_id": "waliha-portfolio/portfolio/7e0744b0e1e069a9-58ba2102f7a0",
+    "bytes": 271800,
+    "hash": "58ba2102f7a0a1db65830777aff3b53d144e51604ea799be38a50aed4d280719"
+  },
+  "/assets/portfolio/e7a4baec5cb211be.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470189/waliha-portfolio/portfolio/e7a4baec5cb211be-e6a76426d183.webp",
+    "public_id": "waliha-portfolio/portfolio/e7a4baec5cb211be-e6a76426d183",
+    "bytes": 77968,
+    "hash": "e6a76426d183b95c9d2a08915e7420cf87d09ad06bc556f4e609085903db0df9"
+  },
+  "/assets/portfolio/3e6a7fbd831fc88a.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470189/waliha-portfolio/portfolio/3e6a7fbd831fc88a-ddd73fe52949.webp",
+    "public_id": "waliha-portfolio/portfolio/3e6a7fbd831fc88a-ddd73fe52949",
+    "bytes": 118558,
+    "hash": "ddd73fe5294926176a0ddade1be49265690f71330171520f0eee865f86a4f23b"
+  },
+  "/assets/portfolio/3fb26df6a9db2f5d.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470190/waliha-portfolio/portfolio/3fb26df6a9db2f5d-0c7484dbabd8.webp",
+    "public_id": "waliha-portfolio/portfolio/3fb26df6a9db2f5d-0c7484dbabd8",
+    "bytes": 182826,
+    "hash": "0c7484dbabd851a64d98a6c251e27341b1e9ca443a20a3964b744c5d89600625"
+  },
+  "/assets/portfolio/b9427e85ced6f430.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470190/waliha-portfolio/portfolio/b9427e85ced6f430-bc8fed95be25.webp",
+    "public_id": "waliha-portfolio/portfolio/b9427e85ced6f430-bc8fed95be25",
+    "bytes": 104238,
+    "hash": "bc8fed95be2568ba9050ef4b1e56d393767e92a01c02d4b10ed4600e06525c3c"
+  },
+  "/assets/portfolio/88336f5bb8dfa46c.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470190/waliha-portfolio/portfolio/88336f5bb8dfa46c-2163c85e19b1.webp",
+    "public_id": "waliha-portfolio/portfolio/88336f5bb8dfa46c-2163c85e19b1",
+    "bytes": 214832,
+    "hash": "2163c85e19b16403f26a01eb444508bd7fe808374d651dec54f48566ffd90fa8"
+  },
+  "/assets/portfolio/ed62322f29c46c93.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470191/waliha-portfolio/portfolio/ed62322f29c46c93-8058afa32883.webp",
+    "public_id": "waliha-portfolio/portfolio/ed62322f29c46c93-8058afa32883",
+    "bytes": 219922,
+    "hash": "8058afa328839721a3338cd50e8ed388b09af048a6bdc50e15d86069bd195093"
+  },
+  "/assets/portfolio/596407ed70d187b0.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470191/waliha-portfolio/portfolio/596407ed70d187b0-257d73f03ded.webp",
+    "public_id": "waliha-portfolio/portfolio/596407ed70d187b0-257d73f03ded",
+    "bytes": 24782,
+    "hash": "257d73f03dedda50cf7073d2f5ca202f357d74fced3beb8066130c1ec77f1a29"
+  },
+  "/assets/portfolio/1e1970337b1c75e5.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470192/waliha-portfolio/portfolio/1e1970337b1c75e5-6bd4b2e362d8.webp",
+    "public_id": "waliha-portfolio/portfolio/1e1970337b1c75e5-6bd4b2e362d8",
+    "bytes": 242018,
+    "hash": "6bd4b2e362d8bc87fb68c883ebd7df8395643df7c9c6d71efc6472717716a87f"
+  },
+  "/assets/portfolio/9932c207b3114f1a.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470193/waliha-portfolio/portfolio/9932c207b3114f1a-8c1f93a892cf.webp",
+    "public_id": "waliha-portfolio/portfolio/9932c207b3114f1a-8c1f93a892cf",
+    "bytes": 111564,
+    "hash": "8c1f93a892cf5f0c9e7233213a8e2f886cdee431a899fbda275b45f9de5b2ecf"
+  },
+  "/assets/portfolio/2fe94eb2ca157e13.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470193/waliha-portfolio/portfolio/2fe94eb2ca157e13-4e71981c7558.webp",
+    "public_id": "waliha-portfolio/portfolio/2fe94eb2ca157e13-4e71981c7558",
+    "bytes": 304330,
+    "hash": "4e71981c755811ccc26e3ba60015e99cd51bd025bb75fd4a0129c28b441645e6"
+  },
+  "/assets/portfolio/06474c383dc77a4f.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470193/waliha-portfolio/portfolio/06474c383dc77a4f-3e6932d0431f.webp",
+    "public_id": "waliha-portfolio/portfolio/06474c383dc77a4f-3e6932d0431f",
+    "bytes": 146626,
+    "hash": "3e6932d0431f382f5595de162a9733838873e9e71d1f9171cf07f418244bac1d"
+  },
+  "/assets/portfolio/779654b421148434.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470194/waliha-portfolio/portfolio/779654b421148434-0feff2a31d5d.webp",
+    "public_id": "waliha-portfolio/portfolio/779654b421148434-0feff2a31d5d",
+    "bytes": 50656,
+    "hash": "0feff2a31d5d09c7ce96de404f4839a9b53b5c3a2242893267eb80466f1c8731"
+  },
+  "/assets/portfolio/4b05bac1848e176a.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470194/waliha-portfolio/portfolio/4b05bac1848e176a-5098a3873a33.webp",
+    "public_id": "waliha-portfolio/portfolio/4b05bac1848e176a-5098a3873a33",
+    "bytes": 59146,
+    "hash": "5098a3873a3306f1fe8565ff814c830b5aa25fab6d19a0281b06a26448521fc5"
+  },
+  "/assets/portfolio/d5d4a189e866edab.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470195/waliha-portfolio/portfolio/d5d4a189e866edab-5ae7fb698035.webp",
+    "public_id": "waliha-portfolio/portfolio/d5d4a189e866edab-5ae7fb698035",
+    "bytes": 79056,
+    "hash": "5ae7fb6980350927002dbffd99ba0a45d515af3e42cacd5d67fd6db9ee09fda9"
+  },
+  "/assets/portfolio/ebef1be8a2857997.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470196/waliha-portfolio/portfolio/ebef1be8a2857997-e900906e238b.webp",
+    "public_id": "waliha-portfolio/portfolio/ebef1be8a2857997-e900906e238b",
+    "bytes": 55318,
+    "hash": "e900906e238bdadc952b178cc34ee7291d54c8544b88a35e17ade070b2a3e611"
+  },
+  "/assets/portfolio/cd518da9dba09148.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470196/waliha-portfolio/portfolio/cd518da9dba09148-34ce50a058e7.webp",
+    "public_id": "waliha-portfolio/portfolio/cd518da9dba09148-34ce50a058e7",
+    "bytes": 105560,
+    "hash": "34ce50a058e72cbf7df921648b719deaecd013cd25f9d8a1b95cf5ba41ee77b2"
+  },
+  "/assets/portfolio/f1ddb3066a355436.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470196/waliha-portfolio/portfolio/f1ddb3066a355436-91b13c79ca87.webp",
+    "public_id": "waliha-portfolio/portfolio/f1ddb3066a355436-91b13c79ca87",
+    "bytes": 339674,
+    "hash": "91b13c79ca8738395ce8259ba4c5b89058627e2a8cf2810c0b7353893b794b00"
+  },
+  "/assets/portfolio/8b4565d209636dbb.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470197/waliha-portfolio/portfolio/8b4565d209636dbb-b5b32b5e344c.webp",
+    "public_id": "waliha-portfolio/portfolio/8b4565d209636dbb-b5b32b5e344c",
+    "bytes": 79082,
+    "hash": "b5b32b5e344cec75f5ebb2d98818c52051e39f3be15b57ac3f22e5bd6026473a"
+  },
+  "/assets/portfolio/2894548eac2185cd.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470198/waliha-portfolio/portfolio/2894548eac2185cd-0125bff315cb.webp",
+    "public_id": "waliha-portfolio/portfolio/2894548eac2185cd-0125bff315cb",
+    "bytes": 106950,
+    "hash": "0125bff315cb334a087bdf4218becb3d622e943536faac2171365696c13aeb47"
+  },
+  "/assets/portfolio/4609bd8b6aa67121.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470198/waliha-portfolio/portfolio/4609bd8b6aa67121-380cfbb4d618.webp",
+    "public_id": "waliha-portfolio/portfolio/4609bd8b6aa67121-380cfbb4d618",
+    "bytes": 55006,
+    "hash": "380cfbb4d61825cabc3563fec67d458b9393fc8229159c5df5a5f9231651093f"
+  },
+  "/assets/portfolio/a12732787c68e9d9.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470198/waliha-portfolio/portfolio/a12732787c68e9d9-ffad0a49afba.webp",
+    "public_id": "waliha-portfolio/portfolio/a12732787c68e9d9-ffad0a49afba",
+    "bytes": 74804,
+    "hash": "ffad0a49afbaf10736046ad7404381571dacc8eec6b28c753b0c80bfbb528fd5"
+  },
+  "/assets/portfolio/18a0359a741bbd8f.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470199/waliha-portfolio/portfolio/18a0359a741bbd8f-bdcb87052620.webp",
+    "public_id": "waliha-portfolio/portfolio/18a0359a741bbd8f-bdcb87052620",
+    "bytes": 84176,
+    "hash": "bdcb87052620f36f54e66af264ff4fc0ced51c7637a4ed0056c34cfd7e79a192"
+  },
+  "/assets/portfolio/d702b3ac303ce3c8.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470199/waliha-portfolio/portfolio/d702b3ac303ce3c8-960db6e0b8bd.webp",
+    "public_id": "waliha-portfolio/portfolio/d702b3ac303ce3c8-960db6e0b8bd",
+    "bytes": 108050,
+    "hash": "960db6e0b8bdefb22e6b1886db73b6d65798e934cf1f48b7228cd18906d9d1ec"
+  },
+  "/assets/portfolio/b1f4c0f49b358222.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470200/waliha-portfolio/portfolio/b1f4c0f49b358222-2fca16cc962b.webp",
+    "public_id": "waliha-portfolio/portfolio/b1f4c0f49b358222-2fca16cc962b",
+    "bytes": 125920,
+    "hash": "2fca16cc962bd25e38c08f11ba7971cb34a5e412d838e9c03ae370721236e636"
+  },
+  "/assets/portfolio/0b021134d5ef2952.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470200/waliha-portfolio/portfolio/0b021134d5ef2952-a94ec6f93cee.webp",
+    "public_id": "waliha-portfolio/portfolio/0b021134d5ef2952-a94ec6f93cee",
+    "bytes": 129528,
+    "hash": "a94ec6f93cee2ab7186ac15bd3b67e91fd7823b5d75e891ae59195ab3b69a827"
+  },
+  "/assets/portfolio/cc68df439a049484.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470200/waliha-portfolio/portfolio/cc68df439a049484-b33cb2d64035.webp",
+    "public_id": "waliha-portfolio/portfolio/cc68df439a049484-b33cb2d64035",
+    "bytes": 98952,
+    "hash": "b33cb2d64035f4d2a890b29056b5967cc9549c2aee469166a6fa06226b53d138"
+  },
+  "/assets/portfolio/65ac58fe06faa582.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470201/waliha-portfolio/portfolio/65ac58fe06faa582-64a52fd1ce16.webp",
+    "public_id": "waliha-portfolio/portfolio/65ac58fe06faa582-64a52fd1ce16",
+    "bytes": 41034,
+    "hash": "64a52fd1ce1664dbf3bf578bcd72f95ed581ce1fe5206e9ea48c6f4dd8cb3a6f"
+  },
+  "/assets/portfolio/89bdf317d15fff78.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470202/waliha-portfolio/portfolio/89bdf317d15fff78-f1a79c4500a1.webp",
+    "public_id": "waliha-portfolio/portfolio/89bdf317d15fff78-f1a79c4500a1",
+    "bytes": 111184,
+    "hash": "f1a79c4500a1699160c2b6241b24e0c11600d4a17a8a2ccdc17c328399e7d8f5"
+  },
+  "/assets/portfolio/7a9445b3635450fc.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470202/waliha-portfolio/portfolio/7a9445b3635450fc-fdcf5ff4b04e.webp",
+    "public_id": "waliha-portfolio/portfolio/7a9445b3635450fc-fdcf5ff4b04e",
+    "bytes": 144548,
+    "hash": "fdcf5ff4b04efbab0f704d9790f3156cb881c92d86d950d096b72e0b1fe3d069"
+  },
+  "/assets/portfolio/d4d8049a5a643d95.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470203/waliha-portfolio/portfolio/d4d8049a5a643d95-2f2d6878d037.webp",
+    "public_id": "waliha-portfolio/portfolio/d4d8049a5a643d95-2f2d6878d037",
+    "bytes": 19918,
+    "hash": "2f2d6878d0373928bc70756e2282ad2e2157126a4828aeb37a54a940ef602648"
+  },
+  "/assets/portfolio/721a61fd2d6757f5.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470203/waliha-portfolio/portfolio/721a61fd2d6757f5-167197760293.webp",
+    "public_id": "waliha-portfolio/portfolio/721a61fd2d6757f5-167197760293",
+    "bytes": 372202,
+    "hash": "16719776029398591f565466246ff415e6eb4d26403786b82a575223f668cbc2"
+  },
+  "/assets/portfolio/9c8a0565b73a3cd4.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470204/waliha-portfolio/portfolio/9c8a0565b73a3cd4-de23f9c483c8.webp",
+    "public_id": "waliha-portfolio/portfolio/9c8a0565b73a3cd4-de23f9c483c8",
+    "bytes": 38596,
+    "hash": "de23f9c483c8c19516552faf669a8ebf50690764a4d8aa6dbe15ce3675aeb6e9"
+  },
+  "/assets/portfolio/37cf694a0b771909.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470204/waliha-portfolio/portfolio/37cf694a0b771909-5d4de1849d5f.webp",
+    "public_id": "waliha-portfolio/portfolio/37cf694a0b771909-5d4de1849d5f",
+    "bytes": 61234,
+    "hash": "5d4de1849d5f8ea0fd1b98e89e10630a29033382b670cb6c6649577ffe8ca511"
+  },
+  "/assets/portfolio/f8526e1fbc584421.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470205/waliha-portfolio/portfolio/f8526e1fbc584421-8b84d9062075.webp",
+    "public_id": "waliha-portfolio/portfolio/f8526e1fbc584421-8b84d9062075",
+    "bytes": 86358,
+    "hash": "8b84d906207514ef1f40a0b2d31eea83ed92605f4de810ca664c19046a0fe918"
+  },
+  "/assets/portfolio/b279d9b8cf074d94.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470205/waliha-portfolio/portfolio/b279d9b8cf074d94-c84e25f7524f.webp",
+    "public_id": "waliha-portfolio/portfolio/b279d9b8cf074d94-c84e25f7524f",
+    "bytes": 103450,
+    "hash": "c84e25f7524f17f3c09a6b0b8f07eaeced53502a46bd38b935cb4dbbe61d2b74"
+  },
+  "/assets/portfolio/cf9d75be2538fe69.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470206/waliha-portfolio/portfolio/cf9d75be2538fe69-1f0396737f70.webp",
+    "public_id": "waliha-portfolio/portfolio/cf9d75be2538fe69-1f0396737f70",
+    "bytes": 187100,
+    "hash": "1f0396737f70964ca9a15f116fc3a4f7cd7e2555d2ada89826bf92bf2477dbb1"
+  },
+  "/assets/portfolio/d7b5342ca13494cd.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470205/waliha-portfolio/portfolio/d7b5342ca13494cd-5282c72144dc.webp",
+    "public_id": "waliha-portfolio/portfolio/d7b5342ca13494cd-5282c72144dc",
+    "bytes": 83798,
+    "hash": "5282c72144dc1170de7cf0f2518cbc0e4235d32bc9df36d85f05413b1365b61f"
+  },
+  "/assets/portfolio/1dbf918198438a42.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470206/waliha-portfolio/portfolio/1dbf918198438a42-ef5f736aee76.webp",
+    "public_id": "waliha-portfolio/portfolio/1dbf918198438a42-ef5f736aee76",
+    "bytes": 102442,
+    "hash": "ef5f736aee76f51716fbee027b888be668833e0579ec4a4599f7454b573a85b1"
+  },
+  "/assets/portfolio/2830e4ac8303533c.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470207/waliha-portfolio/portfolio/2830e4ac8303533c-dce3464f4996.webp",
+    "public_id": "waliha-portfolio/portfolio/2830e4ac8303533c-dce3464f4996",
+    "bytes": 93498,
+    "hash": "dce3464f4996aa15561544cc06ac5733a4bd2410820d7498dc7cda21c77a1d85"
+  },
+  "/assets/portfolio/7000051342a6676b.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470208/waliha-portfolio/portfolio/7000051342a6676b-ab7b4462bcc1.webp",
+    "public_id": "waliha-portfolio/portfolio/7000051342a6676b-ab7b4462bcc1",
+    "bytes": 21226,
+    "hash": "ab7b4462bcc1a6762911a65398ca78b22e3f2cadc9fd496f2ceb902b0359b797"
+  },
+  "/assets/portfolio/fb5b66e50d9b90b7.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470208/waliha-portfolio/portfolio/fb5b66e50d9b90b7-3f518eb4c4c2.webp",
+    "public_id": "waliha-portfolio/portfolio/fb5b66e50d9b90b7-3f518eb4c4c2",
+    "bytes": 137774,
+    "hash": "3f518eb4c4c279f7980b8f202d793f0cd787e27c04a56879382e27b63db92ca6"
+  },
+  "/assets/portfolio/d1fb0b9dcfc8f5f7.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470208/waliha-portfolio/portfolio/d1fb0b9dcfc8f5f7-210bc334e338.webp",
+    "public_id": "waliha-portfolio/portfolio/d1fb0b9dcfc8f5f7-210bc334e338",
+    "bytes": 163672,
+    "hash": "210bc334e338bc17271006c40c4aa004b9ce3a7cd0ab8ff127242c3e0725bc69"
+  },
+  "/assets/portfolio/a49454cdb1eb054c.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470210/waliha-portfolio/portfolio/a49454cdb1eb054c-758ac1187a8b.webp",
+    "public_id": "waliha-portfolio/portfolio/a49454cdb1eb054c-758ac1187a8b",
+    "bytes": 168030,
+    "hash": "758ac1187a8bd22c56c9cee27586db2085bb11655dbbd0e268eec2a9781f1d61"
+  },
+  "/assets/portfolio/fb19ae9f1f54eb54.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470210/waliha-portfolio/portfolio/fb19ae9f1f54eb54-5d6602616646.webp",
+    "public_id": "waliha-portfolio/portfolio/fb19ae9f1f54eb54-5d6602616646",
+    "bytes": 66078,
+    "hash": "5d66026166465b4db09330a59032d60a33ddf9592262a5f8d64c8eec1d0b90ff"
+  },
+  "/assets/portfolio/ea8a4bc195425538.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470210/waliha-portfolio/portfolio/ea8a4bc195425538-b4f37053e3ff.webp",
+    "public_id": "waliha-portfolio/portfolio/ea8a4bc195425538-b4f37053e3ff",
+    "bytes": 194536,
+    "hash": "b4f37053e3ffcd2e5b79ba9b69c589e5fe2d8b1f520054c4e98154939ef21f4d"
+  },
+  "/assets/portfolio/db41671ff18cab95.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470211/waliha-portfolio/portfolio/db41671ff18cab95-ccceecd31c8b.webp",
+    "public_id": "waliha-portfolio/portfolio/db41671ff18cab95-ccceecd31c8b",
+    "bytes": 68992,
+    "hash": "ccceecd31c8b6ded60b0e3cdaab284395c4782f8edffc440cd2929150d135f84"
+  },
+  "/assets/portfolio/1d2d0553e43946c8.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470211/waliha-portfolio/portfolio/1d2d0553e43946c8-c2c8acc836a9.webp",
+    "public_id": "waliha-portfolio/portfolio/1d2d0553e43946c8-c2c8acc836a9",
+    "bytes": 38016,
+    "hash": "c2c8acc836a945f2b7dacdba03d41f68700aa5d0d69b0d2104cfe92c488a25a1"
+  },
+  "/assets/portfolio/6c0a9512dc973b5e.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470211/waliha-portfolio/portfolio/6c0a9512dc973b5e-49d2e55e1dc5.webp",
+    "public_id": "waliha-portfolio/portfolio/6c0a9512dc973b5e-49d2e55e1dc5",
+    "bytes": 98648,
+    "hash": "49d2e55e1dc5da1cc6b3237ea473709abac40a53dceca5a3a46357ca94fac4ca"
+  },
+  "/assets/portfolio/6eba63e6bd358435.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470212/waliha-portfolio/portfolio/6eba63e6bd358435-d832cab8853d.webp",
+    "public_id": "waliha-portfolio/portfolio/6eba63e6bd358435-d832cab8853d",
+    "bytes": 155254,
+    "hash": "d832cab8853d18ee494358951cbe966fa62d85fdefb315052ee1757853f7a1d9"
+  },
+  "/assets/portfolio/697bfa118be69384.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470212/waliha-portfolio/portfolio/697bfa118be69384-61f41aff14cf.webp",
+    "public_id": "waliha-portfolio/portfolio/697bfa118be69384-61f41aff14cf",
+    "bytes": 199594,
+    "hash": "61f41aff14cfde1ec572d6e0a3a656eeb26420428af0955a260ef03da6d20bda"
+  },
+  "/assets/portfolio/d919d296ede99c05.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470212/waliha-portfolio/portfolio/d919d296ede99c05-2da1e9696a56.webp",
+    "public_id": "waliha-portfolio/portfolio/d919d296ede99c05-2da1e9696a56",
+    "bytes": 263270,
+    "hash": "2da1e9696a56ad9836cd88d62b6e0a21f43275aab41a646911f3b7a080aaa9f9"
+  },
+  "/assets/portfolio/4fb3aae328a08985.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470213/waliha-portfolio/portfolio/4fb3aae328a08985-2eebe9ebae4a.webp",
+    "public_id": "waliha-portfolio/portfolio/4fb3aae328a08985-2eebe9ebae4a",
+    "bytes": 142066,
+    "hash": "2eebe9ebae4a01ae378a6527ae859ed0abe2d154559de04a290db3d0434a052b"
+  },
+  "/assets/portfolio/30f6217559d138ab.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470213/waliha-portfolio/portfolio/30f6217559d138ab-1508d877640c.webp",
+    "public_id": "waliha-portfolio/portfolio/30f6217559d138ab-1508d877640c",
+    "bytes": 103494,
+    "hash": "1508d877640c7ede17bc007eeeafe1fb1d5dc6836ae0690afc957d53bce969ea"
+  },
+  "/assets/portfolio/eb7a0d8b6a2b04d8.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470213/waliha-portfolio/portfolio/eb7a0d8b6a2b04d8-a0708562f47e.webp",
+    "public_id": "waliha-portfolio/portfolio/eb7a0d8b6a2b04d8-a0708562f47e",
+    "bytes": 209884,
+    "hash": "a0708562f47e65357cb79faf41c8e49bd5ed292f2e9d9dadb8dad31a075ca5e1"
+  },
+  "/assets/portfolio/f077142eb5181ef1.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470214/waliha-portfolio/portfolio/f077142eb5181ef1-ce9e498332d2.webp",
+    "public_id": "waliha-portfolio/portfolio/f077142eb5181ef1-ce9e498332d2",
+    "bytes": 222708,
+    "hash": "ce9e498332d279e587b211ad851a6a4d0baa1b5305e4e56a8a6d6762738f37bc"
+  },
+  "/assets/portfolio/7d811712cea35534.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470214/waliha-portfolio/portfolio/7d811712cea35534-7dfdf4653bf0.webp",
+    "public_id": "waliha-portfolio/portfolio/7d811712cea35534-7dfdf4653bf0",
+    "bytes": 382700,
+    "hash": "7dfdf4653bf091c6486d2f91152bc75973fe8be1500676237dd47f73ec48127e"
+  },
+  "/assets/portfolio/121c1fe9439e9b68.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470214/waliha-portfolio/portfolio/121c1fe9439e9b68-361e533619dc.webp",
+    "public_id": "waliha-portfolio/portfolio/121c1fe9439e9b68-361e533619dc",
+    "bytes": 248046,
+    "hash": "361e533619dc5a248bf2dbae84f30c1355cc1313a16fc5482f6a898b1e505967"
+  },
+  "/assets/portfolio/e49093760b9d8fa3.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470215/waliha-portfolio/portfolio/e49093760b9d8fa3-53a08a319077.webp",
+    "public_id": "waliha-portfolio/portfolio/e49093760b9d8fa3-53a08a319077",
+    "bytes": 51568,
+    "hash": "53a08a31907799b5e686ee5f950b6f81d46ac1c093ee9f077931fb4a2285ce18"
+  },
+  "/assets/portfolio/bc54b1e8beac5a8a.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470215/waliha-portfolio/portfolio/bc54b1e8beac5a8a-4ec247e997d6.webp",
+    "public_id": "waliha-portfolio/portfolio/bc54b1e8beac5a8a-4ec247e997d6",
+    "bytes": 149858,
+    "hash": "4ec247e997d61dd5a2d4ad93a36a82cb82f22632fecb78fbf7d2c8835bea13f5"
+  },
+  "/assets/portfolio/96228e48940d4b89.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470215/waliha-portfolio/portfolio/96228e48940d4b89-f6d55af03ba0.webp",
+    "public_id": "waliha-portfolio/portfolio/96228e48940d4b89-f6d55af03ba0",
+    "bytes": 285612,
+    "hash": "f6d55af03ba0e51db288e03767018811785a88b41ff00881e079e71ebd96b301"
+  },
+  "/assets/portfolio/77c5a269f359ac54.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470217/waliha-portfolio/portfolio/77c5a269f359ac54-82a3bf9f7188.webp",
+    "public_id": "waliha-portfolio/portfolio/77c5a269f359ac54-82a3bf9f7188",
+    "bytes": 265946,
+    "hash": "82a3bf9f71881d94fd28ada3dff2ff675079e285d0b9db7a88c9cd5d5d392760"
+  },
+  "/assets/portfolio/9d0ba6a47ed6e027.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470217/waliha-portfolio/portfolio/9d0ba6a47ed6e027-93b593b043aa.webp",
+    "public_id": "waliha-portfolio/portfolio/9d0ba6a47ed6e027-93b593b043aa",
+    "bytes": 303480,
+    "hash": "93b593b043aaa75a2d2606de03a199427fb39a9a307b753d6f153f879dc9030c"
+  },
+  "/assets/portfolio/0928a1619e904112.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470217/waliha-portfolio/portfolio/0928a1619e904112-7f0fd837c7fe.webp",
+    "public_id": "waliha-portfolio/portfolio/0928a1619e904112-7f0fd837c7fe",
+    "bytes": 260086,
+    "hash": "7f0fd837c7fe70f1ca981be586d8927f283678b23579da87ab07e04c8d9f1fe3"
+  },
+  "/assets/portfolio/6166237fd5b36d03.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470218/waliha-portfolio/portfolio/6166237fd5b36d03-23066c65f90e.webp",
+    "public_id": "waliha-portfolio/portfolio/6166237fd5b36d03-23066c65f90e",
+    "bytes": 243930,
+    "hash": "23066c65f90e4e88191d34b95b1b2664d084ccd4eeea7bc70fb375360f567fa2"
+  },
+  "/assets/portfolio/cc77be891a579ffc.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470219/waliha-portfolio/portfolio/cc77be891a579ffc-c5fde065afd7.webp",
+    "public_id": "waliha-portfolio/portfolio/cc77be891a579ffc-c5fde065afd7",
+    "bytes": 207982,
+    "hash": "c5fde065afd75d6e4f01db3156cda8ea911ac8f06168b4852966d12295ab678b"
+  },
+  "/assets/portfolio/cb7049a3775fc441.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470219/waliha-portfolio/portfolio/cb7049a3775fc441-b21fb3ff339d.webp",
+    "public_id": "waliha-portfolio/portfolio/cb7049a3775fc441-b21fb3ff339d",
+    "bytes": 230306,
+    "hash": "b21fb3ff339d480ceb7aff2e616cf955d1bd2b151cc939432db84695192cef38"
+  },
+  "/assets/portfolio/af2ed545b446014f.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470220/waliha-portfolio/portfolio/af2ed545b446014f-acb35c0e79b9.webp",
+    "public_id": "waliha-portfolio/portfolio/af2ed545b446014f-acb35c0e79b9",
+    "bytes": 236554,
+    "hash": "acb35c0e79b94c908d6950b1172bc508b90547d186fe71cff36a3a49c1d7e3e4"
+  },
+  "/assets/portfolio/5e1c7f686b73f45d.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470220/waliha-portfolio/portfolio/5e1c7f686b73f45d-5938d2070975.webp",
+    "public_id": "waliha-portfolio/portfolio/5e1c7f686b73f45d-5938d2070975",
+    "bytes": 151618,
+    "hash": "5938d207097532bfe24bd5edd1bf97a9fd2b6ca1a469575263ccad309d4bedd3"
+  },
+  "/assets/portfolio/25a0cae6c8810fb7.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470221/waliha-portfolio/portfolio/25a0cae6c8810fb7-da14d72ea0a7.webp",
+    "public_id": "waliha-portfolio/portfolio/25a0cae6c8810fb7-da14d72ea0a7",
+    "bytes": 333832,
+    "hash": "da14d72ea0a7dae3436e19c24875b584878f5e9b1fb773af9aed28ef72368473"
+  },
+  "/assets/portfolio/36fe417a143d3d72.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470221/waliha-portfolio/portfolio/36fe417a143d3d72-08d6b17c685e.webp",
+    "public_id": "waliha-portfolio/portfolio/36fe417a143d3d72-08d6b17c685e",
+    "bytes": 124004,
+    "hash": "08d6b17c685e55b8e04a74ea8b48eaad9867348bd8520c4bc01cf3b8cb46aae9"
+  },
+  "/assets/portfolio/6bf109ecdb08a860.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470222/waliha-portfolio/portfolio/6bf109ecdb08a860-8f805fc3ec24.webp",
+    "public_id": "waliha-portfolio/portfolio/6bf109ecdb08a860-8f805fc3ec24",
+    "bytes": 94746,
+    "hash": "8f805fc3ec240120d81cdac63f20a0c637b921ef38fbc8cc8d930ffbbfa6a3b3"
+  },
+  "/assets/portfolio/982ed5ba334bdc53.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470222/waliha-portfolio/portfolio/982ed5ba334bdc53-55e4ac01452f.webp",
+    "public_id": "waliha-portfolio/portfolio/982ed5ba334bdc53-55e4ac01452f",
+    "bytes": 213532,
+    "hash": "55e4ac01452f895e2b96226c7dd8ebbcd9ad1adbf13399e1f629f4b0fc3b2be5"
+  },
+  "/assets/portfolio/c37d98a4ecaf9973.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470222/waliha-portfolio/portfolio/c37d98a4ecaf9973-fe190458645b.webp",
+    "public_id": "waliha-portfolio/portfolio/c37d98a4ecaf9973-fe190458645b",
+    "bytes": 138830,
+    "hash": "fe190458645be4c302b22c81088ee35e8e24dcf1d9093748306d79374b0a0d07"
+  },
+  "/assets/portfolio/32b304f58c80bc71.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470223/waliha-portfolio/portfolio/32b304f58c80bc71-0fd596a56d60.webp",
+    "public_id": "waliha-portfolio/portfolio/32b304f58c80bc71-0fd596a56d60",
+    "bytes": 164480,
+    "hash": "0fd596a56d60212329755db3064edad2c62a11854bd4d9faaad29cbb57fdea08"
+  },
+  "/assets/portfolio/e46c4de3f3d85538.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470223/waliha-portfolio/portfolio/e46c4de3f3d85538-d6f64b2a5f1e.webp",
+    "public_id": "waliha-portfolio/portfolio/e46c4de3f3d85538-d6f64b2a5f1e",
+    "bytes": 179572,
+    "hash": "d6f64b2a5f1e80406b8631fdae1a63a8c97b4c9cff43625f84dffb0da835a11d"
+  },
+  "/assets/portfolio/b51c4773fdbf70bd.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470223/waliha-portfolio/portfolio/b51c4773fdbf70bd-cec1e115b1de.webp",
+    "public_id": "waliha-portfolio/portfolio/b51c4773fdbf70bd-cec1e115b1de",
+    "bytes": 268206,
+    "hash": "cec1e115b1de34ed2bed32f438fa2c2d956339f746a97d93a27bd5d8124ab36f"
+  },
+  "/assets/portfolio/19429cfec0329ec0.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470225/waliha-portfolio/portfolio/19429cfec0329ec0-dac6aa15e558.webp",
+    "public_id": "waliha-portfolio/portfolio/19429cfec0329ec0-dac6aa15e558",
+    "bytes": 73898,
+    "hash": "dac6aa15e558920eb5cc65b3ff6574d2a39f04761f2b381bfd78315d028103dd"
+  },
+  "/assets/portfolio/cfd90f4eef6b0748.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470224/waliha-portfolio/portfolio/cfd90f4eef6b0748-49a61e2d7138.webp",
+    "public_id": "waliha-portfolio/portfolio/cfd90f4eef6b0748-49a61e2d7138",
+    "bytes": 133910,
+    "hash": "49a61e2d71380be82fbddf4ecee816b0c0fcc2663c3cc750f73f7caea0254809"
+  },
+  "/assets/portfolio/eb9d90b24761aa64.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470225/waliha-portfolio/portfolio/eb9d90b24761aa64-012326ad856b.webp",
+    "public_id": "waliha-portfolio/portfolio/eb9d90b24761aa64-012326ad856b",
+    "bytes": 268172,
+    "hash": "012326ad856b437f6d0b2a31d847442673992a63ee0d8d5810d66aabf3b6bcad"
+  },
+  "/assets/portfolio/5c42da0a97c5ee5c.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470226/waliha-portfolio/portfolio/5c42da0a97c5ee5c-abcf2f48654f.webp",
+    "public_id": "waliha-portfolio/portfolio/5c42da0a97c5ee5c-abcf2f48654f",
+    "bytes": 72202,
+    "hash": "abcf2f48654f4ca4a1f11b5fd0d01f81a421e8c1a58110b6230ce513e224df97"
+  },
+  "/assets/portfolio/6a62f3e2c356c85e.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470226/waliha-portfolio/portfolio/6a62f3e2c356c85e-0a0d88b4e2a6.webp",
+    "public_id": "waliha-portfolio/portfolio/6a62f3e2c356c85e-0a0d88b4e2a6",
+    "bytes": 49962,
+    "hash": "0a0d88b4e2a688738a98a3f9015ba4a517f39236d476f8fc5371dd7156abbfed"
+  },
+  "/assets/portfolio/56eb306fe94121b0.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470227/waliha-portfolio/portfolio/56eb306fe94121b0-651ec1a5565f.webp",
+    "public_id": "waliha-portfolio/portfolio/56eb306fe94121b0-651ec1a5565f",
+    "bytes": 60692,
+    "hash": "651ec1a5565f8a69334c4720b0069970a88ba0101cb992d0e1e96e487b1d4622"
+  },
+  "/assets/portfolio/ffc7bd1c6d2e2907.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470227/waliha-portfolio/portfolio/ffc7bd1c6d2e2907-fce6116dfdeb.webp",
+    "public_id": "waliha-portfolio/portfolio/ffc7bd1c6d2e2907-fce6116dfdeb",
+    "bytes": 303354,
+    "hash": "fce6116dfdebd7e05fc778f11bfb1592d2b3b0e74e8e98987638088aff99b386"
+  },
+  "/assets/portfolio/1e58d4905da2cb91.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470229/waliha-portfolio/portfolio/1e58d4905da2cb91-e9461d147c35.webp",
+    "public_id": "waliha-portfolio/portfolio/1e58d4905da2cb91-e9461d147c35",
+    "bytes": 315662,
+    "hash": "e9461d147c3593055ca9a2749a65a75e2bbb472d8fdea419a2512449072a4ef5"
+  },
+  "/assets/portfolio/cc55ba023484fb65.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470229/waliha-portfolio/portfolio/cc55ba023484fb65-b2d7a7e99db9.webp",
+    "public_id": "waliha-portfolio/portfolio/cc55ba023484fb65-b2d7a7e99db9",
+    "bytes": 154194,
+    "hash": "b2d7a7e99db9dc91e877e0c9b3bce4dae8deb3c0079de679f307d0015e94ee72"
+  },
+  "/assets/portfolio/e38f3175971277d5.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470229/waliha-portfolio/portfolio/e38f3175971277d5-1a95e8467e08.webp",
+    "public_id": "waliha-portfolio/portfolio/e38f3175971277d5-1a95e8467e08",
+    "bytes": 207694,
+    "hash": "1a95e8467e08d471a25c07364c3d83d3f44009cbe5c06f54683136fcdd5d2b4c"
+  },
+  "/assets/portfolio/2675fef82f64fe64.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470230/waliha-portfolio/portfolio/2675fef82f64fe64-4b89f5a2c91a.webp",
+    "public_id": "waliha-portfolio/portfolio/2675fef82f64fe64-4b89f5a2c91a",
+    "bytes": 100562,
+    "hash": "4b89f5a2c91add0b3ae61fa323dace27b17313b53440540f45090248e3fa64ee"
+  },
+  "/assets/portfolio/2e26850a47e44afe.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470232/waliha-portfolio/portfolio/2e26850a47e44afe-6e98e1ab73f9.webp",
+    "public_id": "waliha-portfolio/portfolio/2e26850a47e44afe-6e98e1ab73f9",
+    "bytes": 154436,
+    "hash": "6e98e1ab73f95b480de13ef3ad1bfba8c1f2c014e951ee90ab810fbe465d41dd"
+  },
+  "/assets/portfolio/fade07e2ab8ee5c5.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470232/waliha-portfolio/portfolio/fade07e2ab8ee5c5-e70307be08ae.webp",
+    "public_id": "waliha-portfolio/portfolio/fade07e2ab8ee5c5-e70307be08ae",
+    "bytes": 143900,
+    "hash": "e70307be08ae7b5a68ef1261f9a9e374ec06f0d4d49bc1a2939c84aa68472173"
+  },
+  "/assets/portfolio/770bac257f0b576c.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470232/waliha-portfolio/portfolio/770bac257f0b576c-de59b7e91703.webp",
+    "public_id": "waliha-portfolio/portfolio/770bac257f0b576c-de59b7e91703",
+    "bytes": 108608,
+    "hash": "de59b7e91703cc883d6c3270999cd9178ddd1fa5c61bbecf6727487c46ebfb06"
+  },
+  "/assets/portfolio/eea7a911d124cc33.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470233/waliha-portfolio/portfolio/eea7a911d124cc33-e8b055c46418.webp",
+    "public_id": "waliha-portfolio/portfolio/eea7a911d124cc33-e8b055c46418",
+    "bytes": 189018,
+    "hash": "e8b055c46418886c1583cd7c771082b9495755d3ae6523f0fb5f63eba5c922cc"
+  },
+  "/assets/portfolio/5ec41729d3a88789.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470234/waliha-portfolio/portfolio/5ec41729d3a88789-e3b168c35b61.webp",
+    "public_id": "waliha-portfolio/portfolio/5ec41729d3a88789-e3b168c35b61",
+    "bytes": 87834,
+    "hash": "e3b168c35b61a0c20604dd9c466d5a6f8220f86d7c9dcf52e16286297f7ffc8a"
+  },
+  "/assets/portfolio/bffb1b9f0eb8f608.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470234/waliha-portfolio/portfolio/bffb1b9f0eb8f608-f80b386e4878.webp",
+    "public_id": "waliha-portfolio/portfolio/bffb1b9f0eb8f608-f80b386e4878",
+    "bytes": 147508,
+    "hash": "f80b386e4878bd6026fb9e3ee99f0d18658d301cdc2d00c2ec708833536a3dc4"
+  },
+  "/assets/portfolio/b55ec9fc544c4780.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470235/waliha-portfolio/portfolio/b55ec9fc544c4780-183f8d356988.webp",
+    "public_id": "waliha-portfolio/portfolio/b55ec9fc544c4780-183f8d356988",
+    "bytes": 27250,
+    "hash": "183f8d35698836ae10a11df344fe942eeaf6027aabd3884496a198385a82342c"
+  },
+  "/assets/portfolio/024c09a3d6dc636e.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470235/waliha-portfolio/portfolio/024c09a3d6dc636e-b672c8c18163.webp",
+    "public_id": "waliha-portfolio/portfolio/024c09a3d6dc636e-b672c8c18163",
+    "bytes": 137174,
+    "hash": "b672c8c18163586f794bb9f7215d343a345818ae57be869244e8fbc77392c20b"
+  },
+  "/assets/portfolio/b5e6d886ab437d65.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470236/waliha-portfolio/portfolio/b5e6d886ab437d65-415efe067ca3.webp",
+    "public_id": "waliha-portfolio/portfolio/b5e6d886ab437d65-415efe067ca3",
+    "bytes": 157940,
+    "hash": "415efe067ca36fe9cb865072c5a0f8d61dd333bceab3dcb9e8e320a8e8ef6987"
+  },
+  "/assets/portfolio/2f8ca298ebc728cc.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470236/waliha-portfolio/portfolio/2f8ca298ebc728cc-e62d90ca0ada.webp",
+    "public_id": "waliha-portfolio/portfolio/2f8ca298ebc728cc-e62d90ca0ada",
+    "bytes": 41610,
+    "hash": "e62d90ca0ada81dc1df29944057cd660c9dd5f26ba99ee2b9b97432f24a6c79f"
+  },
+  "/assets/portfolio/3a31c73f40946276.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470237/waliha-portfolio/portfolio/3a31c73f40946276-619fc628f1c9.webp",
+    "public_id": "waliha-portfolio/portfolio/3a31c73f40946276-619fc628f1c9",
+    "bytes": 76364,
+    "hash": "619fc628f1c9780dd6666d6ff33c4442436df6e460fe4a03ae55549b5eb82d0a"
+  },
+  "/assets/portfolio/458fe28fcda15d29.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470237/waliha-portfolio/portfolio/458fe28fcda15d29-a9944ceed26e.webp",
+    "public_id": "waliha-portfolio/portfolio/458fe28fcda15d29-a9944ceed26e",
+    "bytes": 73238,
+    "hash": "a9944ceed26e53b8dbf5068dcba32c6f6df7c5c5f3f58db929202e3f83238a39"
+  },
+  "/assets/portfolio/07aad26fa6830c07.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470237/waliha-portfolio/portfolio/07aad26fa6830c07-8d3ea66a119d.webp",
+    "public_id": "waliha-portfolio/portfolio/07aad26fa6830c07-8d3ea66a119d",
+    "bytes": 109592,
+    "hash": "8d3ea66a119d14b774402b402d7f2d474594e09e9602bbd3ca37257d9deec5d5"
+  },
+  "/assets/portfolio/2bb0695a9cbe5f77.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470238/waliha-portfolio/portfolio/2bb0695a9cbe5f77-f844c2f15fc6.webp",
+    "public_id": "waliha-portfolio/portfolio/2bb0695a9cbe5f77-f844c2f15fc6",
+    "bytes": 40138,
+    "hash": "f844c2f15fc6ff0b3e36615d08643e972e000caa14e3988925b86d40a564eb69"
+  },
+  "/assets/portfolio/7d99da219606ebfd.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470238/waliha-portfolio/portfolio/7d99da219606ebfd-6b610d7e321e.webp",
+    "public_id": "waliha-portfolio/portfolio/7d99da219606ebfd-6b610d7e321e",
+    "bytes": 109136,
+    "hash": "6b610d7e321e6f41657989a6972cabcfc5e3b218b7c15d84b6f7f9a4a3a0d230"
+  },
+  "/assets/portfolio/c2d06cc555b93ba9.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470239/waliha-portfolio/portfolio/c2d06cc555b93ba9-cd8361cae44f.webp",
+    "public_id": "waliha-portfolio/portfolio/c2d06cc555b93ba9-cd8361cae44f",
+    "bytes": 57394,
+    "hash": "cd8361cae44f401ee4b66d474be30e2dd7933e86aa73d7ceb153db0ffdc8939c"
+  },
+  "/assets/portfolio/49ba42007aac6b06.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470239/waliha-portfolio/portfolio/49ba42007aac6b06-5104dce861c0.webp",
+    "public_id": "waliha-portfolio/portfolio/49ba42007aac6b06-5104dce861c0",
+    "bytes": 122602,
+    "hash": "5104dce861c0bfa393e068838241bd98d34e5e1076f384ab5a4f505d931abdb3"
+  },
+  "/assets/portfolio/cb591e405d2f6d3e.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470240/waliha-portfolio/portfolio/cb591e405d2f6d3e-3aa0fd113b4b.webp",
+    "public_id": "waliha-portfolio/portfolio/cb591e405d2f6d3e-3aa0fd113b4b",
+    "bytes": 108388,
+    "hash": "3aa0fd113b4be40e67942c1bc707af147222260e97ed3495464a545e96248ac6"
+  },
+  "/assets/portfolio/d3e774a4f23b58ee.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470241/waliha-portfolio/portfolio/d3e774a4f23b58ee-779ea92200f5.webp",
+    "public_id": "waliha-portfolio/portfolio/d3e774a4f23b58ee-779ea92200f5",
+    "bytes": 212292,
+    "hash": "779ea92200f579306db78f96e0d022d1896f281f18684019a7f436ff545c8d31"
+  },
+  "/assets/portfolio/1516d7c0cb5714ff.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470242/waliha-portfolio/portfolio/1516d7c0cb5714ff-3a7d4c0452fc.webp",
+    "public_id": "waliha-portfolio/portfolio/1516d7c0cb5714ff-3a7d4c0452fc",
+    "bytes": 313894,
+    "hash": "3a7d4c0452fc7937cfc7752d7cc7234093cf49d6be940df6302b86e9352fdb78"
+  },
+  "/assets/portfolio/3493ea4a98e38f55.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470242/waliha-portfolio/portfolio/3493ea4a98e38f55-6465b78b8033.webp",
+    "public_id": "waliha-portfolio/portfolio/3493ea4a98e38f55-6465b78b8033",
+    "bytes": 129464,
+    "hash": "6465b78b803307a6fc862470702aba0db367af5abe67e6645bb4e61a38c479e3"
+  },
+  "/assets/portfolio/8b55de1af7fa5428.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470242/waliha-portfolio/portfolio/8b55de1af7fa5428-451b285c5106.webp",
+    "public_id": "waliha-portfolio/portfolio/8b55de1af7fa5428-451b285c5106",
+    "bytes": 96904,
+    "hash": "451b285c51061a278f7960960da63c12bc4112e196d996443413e20e19369a87"
+  },
+  "/assets/portfolio/8695a8d17a65c5d5.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470243/waliha-portfolio/portfolio/8695a8d17a65c5d5-6dc93c50de55.webp",
+    "public_id": "waliha-portfolio/portfolio/8695a8d17a65c5d5-6dc93c50de55",
+    "bytes": 92854,
+    "hash": "6dc93c50de55d69850c30dddcc8cb43829c29e26818c358fb75e8abdfe22efe4"
+  },
+  "/assets/portfolio/fb3eaa01cc014581.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470243/waliha-portfolio/portfolio/fb3eaa01cc014581-a0d729f83bec.webp",
+    "public_id": "waliha-portfolio/portfolio/fb3eaa01cc014581-a0d729f83bec",
+    "bytes": 65934,
+    "hash": "a0d729f83becd3d68237779dde7f3b31a0cc2c5a7f8763624f5f8efdd1ce499d"
+  },
+  "/assets/portfolio/0aefa8fac7cc45d2.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470243/waliha-portfolio/portfolio/0aefa8fac7cc45d2-3947d923fa21.webp",
+    "public_id": "waliha-portfolio/portfolio/0aefa8fac7cc45d2-3947d923fa21",
+    "bytes": 105590,
+    "hash": "3947d923fa210a36211c982dffcdee6e7d2de5506dd9e64689e04c1541d64673"
+  },
+  "/assets/portfolio/467e534b8ae5f511.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470244/waliha-portfolio/portfolio/467e534b8ae5f511-df2255a8d508.webp",
+    "public_id": "waliha-portfolio/portfolio/467e534b8ae5f511-df2255a8d508",
+    "bytes": 110866,
+    "hash": "df2255a8d508a3320e96278e7fcd9ef9306f16cc91711a896eb6dc2c1ab3a767"
+  },
+  "/assets/portfolio/c475ba5f6e9d3a20.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470245/waliha-portfolio/portfolio/c475ba5f6e9d3a20-f36138ba2c95.webp",
+    "public_id": "waliha-portfolio/portfolio/c475ba5f6e9d3a20-f36138ba2c95",
+    "bytes": 285204,
+    "hash": "f36138ba2c956e40138b84f0083741a5de053f37a6cb4a88554d05648734e582"
+  },
+  "/assets/portfolio/094955e34f644d34.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470246/waliha-portfolio/portfolio/094955e34f644d34-8bfa7b2e640a.webp",
+    "public_id": "waliha-portfolio/portfolio/094955e34f644d34-8bfa7b2e640a",
+    "bytes": 286678,
+    "hash": "8bfa7b2e640aeb2cfa9d077b021edb3d86ecdd49bebca7fbe55be47c3c79f185"
+  },
+  "/assets/portfolio/49972ac90b6fd4c1.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470246/waliha-portfolio/portfolio/49972ac90b6fd4c1-6da61989b2b6.webp",
+    "public_id": "waliha-portfolio/portfolio/49972ac90b6fd4c1-6da61989b2b6",
+    "bytes": 200256,
+    "hash": "6da61989b2b6f4d7569490d7759f9433391c823d95e408c56b1d7a93181b6453"
+  },
+  "/assets/portfolio/1ca7fc7afea7e9f7.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470246/waliha-portfolio/portfolio/1ca7fc7afea7e9f7-106d6e991e85.webp",
+    "public_id": "waliha-portfolio/portfolio/1ca7fc7afea7e9f7-106d6e991e85",
+    "bytes": 107072,
+    "hash": "106d6e991e8516ca446841c225f3673d0ff8ab8139a691059589effd710b57e5"
+  },
+  "/assets/portfolio/5ce95bfcadac2a7f.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470247/waliha-portfolio/portfolio/5ce95bfcadac2a7f-d3cf48a2cda3.webp",
+    "public_id": "waliha-portfolio/portfolio/5ce95bfcadac2a7f-d3cf48a2cda3",
+    "bytes": 127604,
+    "hash": "d3cf48a2cda36c72a493f9d590b9f8a4aa955b179b52f80cafea4e2830d1a387"
+  },
+  "/assets/portfolio/84d107651d223cee.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470247/waliha-portfolio/portfolio/84d107651d223cee-46a69cdb92fd.webp",
+    "public_id": "waliha-portfolio/portfolio/84d107651d223cee-46a69cdb92fd",
+    "bytes": 166772,
+    "hash": "46a69cdb92fd1c2401c009bf95b852c4c1e455b2d3889214b796ae8986eaa7d9"
+  },
+  "/assets/portfolio/e6b1b0004cac6d3a.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470247/waliha-portfolio/portfolio/e6b1b0004cac6d3a-3b5c03fd2252.webp",
+    "public_id": "waliha-portfolio/portfolio/e6b1b0004cac6d3a-3b5c03fd2252",
+    "bytes": 136762,
+    "hash": "3b5c03fd2252ca2836a2736e17aa8e803fd163c4311816e9d436f919fdc5137a"
+  },
+  "/assets/portfolio/11fdb6fc1cdaf5b0.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470248/waliha-portfolio/portfolio/11fdb6fc1cdaf5b0-6737f80f4c16.webp",
+    "public_id": "waliha-portfolio/portfolio/11fdb6fc1cdaf5b0-6737f80f4c16",
+    "bytes": 120144,
+    "hash": "6737f80f4c16b0e5e292eee30e6df4a489b29298ffa0634fa984f3fae3ed5604"
+  },
+  "/assets/portfolio/f637946fac21a0f6.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470249/waliha-portfolio/portfolio/f637946fac21a0f6-0d31ca28e742.webp",
+    "public_id": "waliha-portfolio/portfolio/f637946fac21a0f6-0d31ca28e742",
+    "bytes": 117792,
+    "hash": "0d31ca28e7424316c1652ff6152733e8d89f02b30ce525bc09631a1e91c13d3d"
+  },
+  "/assets/portfolio/8e0fa8716596225f.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470249/waliha-portfolio/portfolio/8e0fa8716596225f-d71248fad070.webp",
+    "public_id": "waliha-portfolio/portfolio/8e0fa8716596225f-d71248fad070",
+    "bytes": 230984,
+    "hash": "d71248fad0705273411a72e54b10e9b1c049a0bfc59007da2a5ca455c7d0c998"
+  },
+  "/assets/portfolio/5002330d9b749b4b.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470249/waliha-portfolio/portfolio/5002330d9b749b4b-daa816b1202d.webp",
+    "public_id": "waliha-portfolio/portfolio/5002330d9b749b4b-daa816b1202d",
+    "bytes": 54400,
+    "hash": "daa816b1202d778d8eee719c90147ef618c2d68011565c57037f232202d8740d"
+  },
+  "/assets/portfolio/buraq-1.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470250/waliha-portfolio/portfolio/buraq-1-9f9c3e416316.webp",
+    "public_id": "waliha-portfolio/portfolio/buraq-1-9f9c3e416316",
+    "bytes": 42868,
+    "hash": "9f9c3e416316b141681d5aaf11c7a24c47ffad6eb8a780a91de983a44e62858f"
+  },
+  "/assets/portfolio/buraq-2.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470250/waliha-portfolio/portfolio/buraq-2-2711f2be9553.webp",
+    "public_id": "waliha-portfolio/portfolio/buraq-2-2711f2be9553",
+    "bytes": 155702,
+    "hash": "2711f2be95539e89e4b2fbcd739d24a779e969607561def9e2c33f9337ed5125"
+  },
+  "/assets/portfolio/buraq-4.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470250/waliha-portfolio/portfolio/buraq-4-9a2e11cacd2d.webp",
+    "public_id": "waliha-portfolio/portfolio/buraq-4-9a2e11cacd2d",
+    "bytes": 72390,
+    "hash": "9a2e11cacd2d1eb11011fc6d085ddc7381d8cdb0fa620b59abc483959fca5d9d"
+  },
+  "/assets/portfolio/buraq-3.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470250/waliha-portfolio/portfolio/buraq-3-9fa85dc4a461.webp",
+    "public_id": "waliha-portfolio/portfolio/buraq-3-9fa85dc4a461",
+    "bytes": 152682,
+    "hash": "9fa85dc4a461bd539db84fef9a7d474ebb76c96996d5a0d473029e2f0ffc0ad7"
+  },
+  "/assets/portfolio/buraq-5.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470251/waliha-portfolio/portfolio/buraq-5-af4a7cba302a.webp",
+    "public_id": "waliha-portfolio/portfolio/buraq-5-af4a7cba302a",
+    "bytes": 82670,
+    "hash": "af4a7cba302ac182d7e1d496ab625268e951576cf1e6819cbf55a98516ba1de7"
+  },
+  "/assets/portfolio/buraq-6.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470251/waliha-portfolio/portfolio/buraq-6-de5e7e966baf.webp",
+    "public_id": "waliha-portfolio/portfolio/buraq-6-de5e7e966baf",
+    "bytes": 45898,
+    "hash": "de5e7e966baf1c98d970df527e8768b363894843bc43393d8afdbd19a1ab16d1"
+  },
+  "/assets/portfolio/buraq-7.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470251/waliha-portfolio/portfolio/buraq-7-69b1d865fe0c.webp",
+    "public_id": "waliha-portfolio/portfolio/buraq-7-69b1d865fe0c",
+    "bytes": 139958,
+    "hash": "69b1d865fe0c34148779292f559fc4eada04316ee5eec34ebed32c7c3de98708"
+  },
+  "/assets/portfolio/buraq-8.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470252/waliha-portfolio/portfolio/buraq-8-b1a6f7191999.webp",
+    "public_id": "waliha-portfolio/portfolio/buraq-8-b1a6f7191999",
+    "bytes": 39880,
+    "hash": "b1a6f7191999d0e832bf7eb6cb63b0bdee034a3add4c61c229fd6513cb7c8407"
+  },
+  "/assets/mockups/posters.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470252/waliha-portfolio/mockups/posters-9ffbf66aa415.webp",
+    "public_id": "waliha-portfolio/mockups/posters-9ffbf66aa415",
+    "bytes": 221040,
+    "hash": "9ffbf66aa41590488f4331b5b2f5ec0111be720e65643dcd61c46f9868546289"
+  },
+  "/assets/mockups/pure-leaf.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470253/waliha-portfolio/mockups/pure-leaf-66d45070a42f.webp",
+    "public_id": "waliha-portfolio/mockups/pure-leaf-66d45070a42f",
+    "bytes": 253936,
+    "hash": "66d45070a42fe7e4d7b569230c8e6c593259905af4fc3c10b4798e95b849a158"
+  },
+  "/assets/mockups/social-media.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470253/waliha-portfolio/mockups/social-media-1e032c289fdd.webp",
+    "public_id": "waliha-portfolio/mockups/social-media-1e032c289fdd",
+    "bytes": 262432,
+    "hash": "1e032c289fddc676d1f610a6ee284b076fe2c4c482d167eccff8181909181df6"
+  },
+  "/assets/mockups/thumbnails.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470254/waliha-portfolio/mockups/thumbnails-cb36942e320c.webp",
+    "public_id": "waliha-portfolio/mockups/thumbnails-cb36942e320c",
+    "bytes": 225178,
+    "hash": "cb36942e320c89420b55a5177abc57fd487d2765627bbcb7f14916b53daf4e43"
+  },
+  "/assets/mockups/nova-glow.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470255/waliha-portfolio/mockups/nova-glow-8cbb22390107.webp",
+    "public_id": "waliha-portfolio/mockups/nova-glow-8cbb22390107",
+    "bytes": 153836,
+    "hash": "8cbb223901075d29327efc950468731e426ea606cfba649f7f01ed4ebffd8735"
+  },
+  "/assets/mockups/product-creatives.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470255/waliha-portfolio/mockups/product-creatives-08005ac6ccc1.webp",
+    "public_id": "waliha-portfolio/mockups/product-creatives-08005ac6ccc1",
+    "bytes": 182744,
+    "hash": "08005ac6ccc1e42d49217cce2fcd4b4e7e8af81308f3a509ea199bb5d7f50d23"
+  },
+  "/assets/mockups/logo-design.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470256/waliha-portfolio/mockups/logo-design-ee9a637d25d8.webp",
+    "public_id": "waliha-portfolio/mockups/logo-design-ee9a637d25d8",
+    "bytes": 220018,
+    "hash": "ee9a637d25d80a4b8fca49a369944d17839dff7829f7b553c683137210bf0af7"
+  },
+  "/assets/mockups/babies-pal.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470256/waliha-portfolio/mockups/babies-pal-7ad9f66ec83d.webp",
+    "public_id": "waliha-portfolio/mockups/babies-pal-7ad9f66ec83d",
+    "bytes": 149136,
+    "hash": "7ad9f66ec83dec89ee515e6815c537b552e5cfac2f3d47b2f0c3b1c607e051ad"
+  },
+  "/assets/mockups/pustimate.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470257/waliha-portfolio/mockups/pustimate-f7f00941ec0e.webp",
+    "public_id": "waliha-portfolio/mockups/pustimate-f7f00941ec0e",
+    "bytes": 222958,
+    "hash": "f7f00941ec0e9e5f30bd677f0259059fc44f8f60f10a78b2fe7e019cd628e230"
+  },
+  "/assets/mockups/buraq.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470258/waliha-portfolio/mockups/buraq-e70ebf6ce803.webp",
+    "public_id": "waliha-portfolio/mockups/buraq-e70ebf6ce803",
+    "bytes": 326074,
+    "hash": "e70ebf6ce803af6b5832bc9b993c721e7bdb54827576e4b95a3238e50e775679"
+  },
+  "/assets/mockups/banners-billboard.webp": {
+    "secure_url": "https://res.cloudinary.com/sergteqh/image/upload/v1791470259/waliha-portfolio/mockups/banners-billboard-69a746cc17bf.webp",
+    "public_id": "waliha-portfolio/mockups/banners-billboard-69a746cc17bf",
+    "bytes": 454640,
+    "hash": "69a746cc17bf8c3a03b68fc040301afc96fba83776098319d67fdb2373ba8449"
+  }
+}

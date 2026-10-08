@@ -1,4 +1,5 @@
 import artwork from "./artwork.json";
+import { portfolioMediaUrl } from "../../lib/portfolio-media";
 
 const definitions = [
   ["pure-leaf", "Pure Leaf", "Branding", "A green and white visual identity, explored across the logo, stationery, apparel and everyday brand applications."],
@@ -17,8 +18,8 @@ const definitions = [
   ["web-design", "Digital Design", "Digital", "Digital layouts and their existing screen mockup presentations."],
 ];
 export const PORTFOLIO = definitions.map(([slug,title,category,description]) => {
-  const images = artwork.filter(item => item.group === slug);
+  const images = artwork.filter(item => item.group === slug).map(item => ({ ...item, src: portfolioMediaUrl(item.src), original: portfolioMediaUrl(item.src) }));
   const generated = ["pure-leaf","posters","social-media","thumbnails","product-creatives","banners","logo-design","nova-glow","pustimate","babies-pal","buraq"];
-  return { slug,title,category,description,images,cover: slug === "banners" ? "/assets/mockups/banners-billboard.webp" : generated.includes(slug) ? `/assets/mockups/${slug}.webp` : images[0]?.src, generatedMockup:generated.includes(slug) };
+  return { slug,title,category,description,images,cover: slug === "banners" ? portfolioMediaUrl("/assets/mockups/banners-billboard.webp") : generated.includes(slug) ? portfolioMediaUrl(`/assets/mockups/${slug}.webp`) : images[0]?.src, generatedMockup:generated.includes(slug) };
 });
 export const ARTWORK_COUNT = artwork.length;
