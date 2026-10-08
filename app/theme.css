@@ -1,0 +1,10 @@
+:root{--brand-white:#fff;--brand-lime:#8EBF24;--brand-green:#538C1A;--brand-forest:#2F590F;--brand-ink:#0D2504;--brand-black:#010D00}
+::selection{background:#8EBF24;color:#010D00}
+.chrome-menu-cta:hover{background:#538C1A}
+.chrome-footer{background:#fff}
+.reference-work-page .alta-source{background:#fff;color:#0D2504}
+.reference-work-page .alta-source .framer-LfkEw{min-height:0!important;height:auto!important;background:#fff!important}
+.reference-work-page .alta-source #heroSection{background:#fff!important}
+.reference-work-page .alta-source #heroSection .framer-text{color:#0D2504!important}
+.reference-work-page .alta-source [data-reference-project] [data-framer-name="Zoom"]{background:#8EBF24!important}
+.reference-work-page .alta-source [data-reference-project] [data-framer-name="Content Wrapper"] h6{color:#0D2504!important}

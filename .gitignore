@@ -43,3 +43,84 @@ next-env.d.ts
 .netlify/
 Thumbs.db
 desktop.ini
+
+# BEGIN unused portfolio assets
+# Local originals, duplicates and archives that are not referenced by the site.
+/public/assets/ChatGPT Image Sep 27, 2026, 04_20_51 PM.png
+/public/assets/ChatGPT Image Sep 27, 2026, 05_18_39 PM.png
+/public/assets/ChatGPT Image Sep 27, 2026, 05_51_13 PM.png
+/public/assets/ChatGPT Image Sep 27, 2026, 06_04_19 PM.png
+/public/assets/assets/banner.zip
+/public/assets/assets/blackcrown branding posts.zip
+/public/assets/assets/logoo.zip
+/public/assets/assets/poster chess.zip
+/public/assets/assets/posts.zip
+/public/assets/assets/posts/posts/1 - Copy.jpg
+/public/assets/assets/posts/posts/10.jpg
+/public/assets/assets/posts/posts/11.jpg
+/public/assets/assets/posts/posts/12.jpg
+/public/assets/assets/posts/posts/13.jpg
+/public/assets/assets/posts/posts/14.jpg
+/public/assets/assets/posts/posts/15.jpg
+/public/assets/assets/posts/posts/16.jpg
+/public/assets/assets/posts/posts/2 - Copy.jpg
+/public/assets/assets/posts/posts/3 - Copy.jpg
+/public/assets/assets/posts/posts/4.jpg
+/public/assets/assets/posts/posts/445736251_768376412147142_2387087664596222001_n.jpg
+/public/assets/assets/posts/posts/445805849_772487298402720_6719713094733848178_n.jpg
+/public/assets/assets/posts/posts/447450271_775169864801130_5749085366782115006_n.jpg
+/public/assets/assets/posts/posts/447741147_776501041334679_4364801354485719404_n.jpg
+/public/assets/assets/posts/posts/447766316_2585302921657412_109262659032042212_n.jpg
+/public/assets/assets/posts/posts/448225610_780606800924103_6544870662485800534_n.jpg
+/public/assets/assets/posts/posts/448226502_780599604258156_4307330182003416026_n.jpg
+/public/assets/assets/posts/posts/5.jpg
+/public/assets/assets/posts/posts/6.jpg
+/public/assets/assets/posts/posts/7.jpg
+/public/assets/assets/posts/posts/8.jpg
+/public/assets/assets/posts/posts/9.jpg
+/public/assets/assets/posts/posts/product-01.jpg
+/public/assets/assets/posts/posts/product-02.jpg
+/public/assets/assets/posts/posts/product-03.png
+/public/assets/assets/posts/posts/product-04.jpg
+/public/assets/assets/posts/posts/product-06.jpg
+/public/assets/assets/product.zip
+/public/assets/assets/product/274700700_1656235728050585_2619667178405249655_n.jpg
+/public/assets/assets/product/321221684_681920623668021_3357310841797031133_n.jpg
+/public/assets/assets/product/354535908_2909261359204304_6956470553420735715_n.jpg
+/public/assets/assets/product/354616698_2909264282537345_984720748084422513_n.jpg
+/public/assets/assets/product/354872442_2909261249204315_3048731369391081616_n.jpg
+/public/assets/assets/product/405512694_735165188628072_8354899330669897889_n.jpg
+/public/assets/assets/product/432431238_122113726622232537_5953073812893272056_n.jpg
+/public/assets/assets/product/441971430_3159139527549818_4259612164756065177_n.jpg
+/public/assets/assets/thumbnail.zip
+/public/assets/assets/thumbnail/1010.jpg
+/public/assets/assets/thumbnail/111.jpg
+/public/assets/assets/thumbnail/1212.jpg
+/public/assets/assets/thumbnail/1313.jpg
+/public/assets/assets/thumbnail/222.jpg
+/public/assets/assets/thumbnail/333.jpg
+/public/assets/assets/thumbnail/444.jpg
+/public/assets/assets/thumbnail/555.jpg
+/public/assets/assets/thumbnail/666.jpg
+/public/assets/assets/thumbnail/777.jpg
+/public/assets/assets/thumbnail/888.jpg
+/public/assets/assets/thumbnail/999.jpg
+/public/assets/assets/thumbnail/facts you dont know about the iran conflict.png
+/public/assets/assets/thumbnail/famous usa court cases.png
+/public/assets/assets/thumbnail/guess the hero.png
+/public/assets/assets/thumbnail/usa fbi.png
+/public/assets/assets/thumbnail/usa hockey thumbnail.png
+/public/assets/brush.jpg
+/public/assets/hero_video.mp4
+/public/assets/icon_ae.png
+/public/assets/icon_ai.png
+/public/assets/icon_davinci.png
+/public/assets/icon_figma.png
+/public/assets/icon_pr.png
+/public/assets/icon_ps.png
+/public/assets/mockups/pure-leaf.png
+/public/assets/pencil.jpg
+/public/assets/spider.png
+/public/assets/waliha.png
+/artifacts/
+# END unused portfolio assets

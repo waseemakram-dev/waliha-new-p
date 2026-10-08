@@ -1,23 +1,25 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import Arrow from "./components/Arrow";
 import "./site-chrome.css";
 
 const email = "walihaidrees0987@gmail.com";
 const links = [
-  ["Home", "heroSection"],
-  ["Work", "workSection"],
-  ["About", "aboutSection"],
-  ["Motion", "motionDesignSection"],
-  ["Contact", "contactSection"],
+  { label: "Home", href: "/" },
+  { label: "Work", href: "/work" },
+  { label: "About", href: "/#aboutSection" },
+  { label: "Motion", href: "/#motionDesignSection" },
+  { label: "Contact", href: "#contactSection" },
 ];
 
 function Navigation({ onNavigate }) {
-  return links.map(([label, id]) => (
-    <a key={id} href={`#${id}`} onClick={onNavigate}>
+  return links.map(({ label, href }) => (
+    <Link key={label} href={href} onClick={onNavigate}>
       <span className="chrome-link-label">{label}</span>
       <span className="chrome-link-hover" aria-hidden="true">{label}</span>
-    </a>
+    </Link>
   ));
 }
 
@@ -48,7 +50,7 @@ export function SiteHeader() {
   return (
     <header className={`chrome-header ${open ? "is-open" : ""}`} ref={header}>
       <div className="chrome-header-row">
-        <a className="chrome-brand" href="#heroSection" onClick={() => setOpen(false)}>Waliha<sup>®</sup></a>
+        <Link className="chrome-brand" href="/" onClick={() => setOpen(false)}>Waliha<sup>®</sup></Link>
         <button ref={trigger} className="chrome-toggle" aria-label={open ? "Close navigation" : "Open navigation"} aria-expanded={open} aria-controls="chrome-menu" onClick={() => setOpen(!open)}>
           <span /><span /><span /><span />
         </button>
@@ -59,7 +61,7 @@ export function SiteHeader() {
           <div><p>Based in</p><span>Pakistan</span><span>Brand &amp; visual design</span></div>
           <div><p>Contacts</p><a href="tel:+923176497197">+92 317 6497197</a><a href={`mailto:${email}`}>{email}</a></div>
         </div>
-        <a className="chrome-menu-cta" href="#contactSection" onClick={() => setOpen(false)}>Get in touch <span aria-hidden="true">↗</span></a>
+        <a className="chrome-menu-cta" href="#contactSection" onClick={() => setOpen(false)}>Get in touch <Arrow size={18}/></a>
       </div>
     </header>
   );
@@ -111,12 +113,12 @@ export function SiteFooter() {
             <label>Name<input type="text" name="name" placeholder="Your name" autoComplete="name" required /></label>
             <label>Email<input type="email" name="email" placeholder="Email address" autoComplete="email" required /></label>
             <label>Message<textarea name="message" placeholder="Start typing here" rows={3} required /></label>
-            <button type="submit">Submit <span aria-hidden="true">→</span></button>
+            <button type="submit">Submit <Arrow direction="right" size={18}/></button>
             <p className="chrome-form-note">Opens your email app with a prepared message.</p>
           </form>
         </div>
         <div ref={wordmark} className="chrome-wordmark" aria-label="Waliha"><span ref={word}>Waliha<sup>®</sup></span></div>
-        <div className="chrome-footer-bottom"><a href="#heroSection">Back to top <span aria-hidden="true">↗</span></a><p>© 2026 Waliha Idrees. All rights reserved.</p></div>
+        <div className="chrome-footer-bottom"><a href="#heroSection">Back to top <Arrow size={18}/></a><p>© 2026 Waliha Idrees. All rights reserved.</p></div>
       </div>
     </footer>
   );

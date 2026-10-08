@@ -4,13 +4,13 @@
    ========================================================= */
 
 :root {
-  --bg-color: #F3F2EE;
-  --text-dark: #1b1e34;
-  --text-muted: #7e8299;
-  --red-string: #d62828;
+  --bg-color: #FFFFFF;
+  --text-dark: #0D2504;
+  --text-muted: #2F590F;
+  --red-string: #538C1A;
   --tape-color: rgba(247, 221, 148, 0.88);
   --paper-bg: #ffffff;
-  --accent-pill: #1b1e34;
+  --accent-pill: #0D2504;
   --font-hero: 'Syne', sans-serif;
   --font-body: 'Plus Jakarta Sans', sans-serif;
   --font-hand: 'Caveat', cursive;
@@ -41,7 +41,7 @@ body {
   pointer-events: none;
   z-index: 100;
   opacity: 0.035;
-  background-image: radial-gradient(#1b1e34 1px, transparent 1px);
+  background-image: radial-gradient(#0D2504 1px, transparent 1px);
   background-size: 24px 24px;
 }
 
@@ -143,7 +143,7 @@ body {
   height: 9px;
   background: var(--red-string);
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(214, 40, 40, 0.5);
+  box-shadow: 0 0 10px rgba(83, 140, 26, 0.5);
 }
 
 .page-switcher {
@@ -235,7 +235,7 @@ body {
   stroke-dasharray: 2000;
   stroke-dashoffset: 2000;
   animation: drawThread 2.4s cubic-bezier(0.25, 1, 0.5, 1) forwards;
-  filter: drop-shadow(1px 2px 2px rgba(214, 40, 40, 0.18));
+  filter: drop-shadow(1px 2px 2px rgba(83, 140, 26, 0.18));
 }
 
 @keyframes drawThread {
@@ -378,14 +378,14 @@ body {
 
 .interactive-node:hover {
   transform: scale(1.08) translateY(-6px) !important;
-  filter: drop-shadow(0 16px 28px rgba(27, 30, 52, 0.16));
+  filter: drop-shadow(0 16px 28px rgba(13, 37, 4, 0.16));
 }
 
 .paper-card {
   background: var(--paper-bg);
   border: 2.2px solid var(--text-dark);
   padding: 0.9rem 1.6rem;
-  box-shadow: 4px 6px 0px rgba(27, 30, 52, 0.95);
+  box-shadow: 4px 6px 0px rgba(13, 37, 4, 0.95);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -485,17 +485,17 @@ body {
 
 .pill-badge {
   background: #ffffff;
-  border: 3.5px solid #d62828;
+  border: 3.5px solid #538C1A;
   border-radius: 999px;
   padding: 0.5rem 1.8rem;
-  box-shadow: 3px 5px 0px #d62828;
+  box-shadow: 3px 5px 0px #538C1A;
 }
 
 .pill-text {
   font-family: var(--font-hero);
   font-weight: 800;
   font-size: 1.4rem;
-  color: #d62828;
+  color: #538C1A;
   letter-spacing: 0.05em;
 }
 
@@ -559,7 +559,7 @@ body {
 
 /* Dark Navy Header Banner Bar */
 .about-banner-bar {
-  background: #2B2A48;
+  background: #2F590F;
   width: 100%;
   max-width: 1360px;
   height: 54px;
@@ -567,7 +567,7 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 4px;
-  box-shadow: 0 6px 16px rgba(43, 42, 72, 0.16);
+  box-shadow: 0 6px 16px rgba(47, 89, 15, 0.16);
   margin-bottom: 3.5rem;
 }
 
@@ -684,14 +684,14 @@ body {
   font-family: var(--font-body);
   font-size: 2rem;
   font-weight: 500;
-  color: #31314C;
+  color: #0D2504;
 }
 
 .about-aka {
   font-family: var(--font-hand);
   font-size: 2.3rem;
   font-weight: 700;
-  color: #BE4B4D;
+  color: #538C1A;
   transform: rotate(-3deg);
   display: inline-block;
 }
@@ -700,7 +700,7 @@ body {
   font-family: var(--font-body);
   font-size: clamp(3.2rem, 5.2vw, 5.2rem);
   font-weight: 800;
-  color: #31314C;
+  color: #0D2504;
   line-height: 1.05;
   margin: 0.2rem 0;
   letter-spacing: -0.01em;
@@ -710,7 +710,7 @@ body {
   font-size: 1.15rem;
   font-weight: 700;
   font-style: italic;
-  color: #BE4B4D;
+  color: #538C1A;
   letter-spacing: 0.05em;
   margin-top: 0.2rem;
   margin-bottom: 1.5rem;
@@ -721,7 +721,7 @@ body {
   font-family: var(--font-body);
   font-size: 1.05rem;
   line-height: 1.7;
-  color: #1a1a24;
+  color: #010D00;
   max-width: 740px;
   margin-bottom: 2.2rem;
 }
@@ -794,7 +794,7 @@ body {
 
 .details-heading {
   position: relative;
-  color: #31314C;
+  color: #0D2504;
   font-family: var(--font-body);
   font-size: clamp(2rem, 3vw, 3rem);
   font-weight: 800;
@@ -811,12 +811,12 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #31314C;
+  background: #0D2504;
 }
 
 .details-intro {
   max-width: 650px;
-  color: #1a1a24;
+  color: #010D00;
   font-size: 1rem;
   line-height: 1.75;
   letter-spacing: 0.015em;
@@ -832,11 +832,11 @@ body {
 
 .experience-item {
   padding-left: 1rem;
-  border-left: 3px solid #BE4B4D;
+  border-left: 3px solid #538C1A;
 }
 
 .experience-item h3 {
-  color: #31314C;
+  color: #0D2504;
   font-size: 1rem;
   line-height: 1.45;
   font-weight: 700;
@@ -844,7 +844,7 @@ body {
 
 .experience-item span {
   display: block;
-  color: #BE4B4D;
+  color: #538C1A;
   font-size: 0.92rem;
   font-weight: 700;
   margin-top: 0.2rem;
@@ -861,7 +861,7 @@ body {
 .expertise-list li {
   position: relative;
   padding-left: 1rem;
-  color: #1a1a24;
+  color: #010D00;
   font-size: 0.98rem;
   line-height: 1.55;
 }
@@ -874,7 +874,7 @@ body {
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background: #BE4B4D;
+  background: #538C1A;
 }
 
 .about-details-visual {
@@ -916,7 +916,7 @@ body {
   top: -1.5rem;
   left: 50%;
   transform: translateX(-50%);
-  color: rgba(49, 49, 76, 0.055);
+  color: rgba(13, 37, 4, 0.055);
   font-family: var(--font-body);
   font-size: clamp(8rem, 19vw, 25.5rem);
   font-weight: 800;
@@ -948,7 +948,7 @@ body {
 }
 
 .work-title {
-  color: #2B2A48;
+  color: #2F590F;
   font-family: var(--font-body);
   font-size: clamp(4.5rem, 7vw, 7rem);
   font-weight: 800;
@@ -958,7 +958,7 @@ body {
 }
 
 .work-subtitle {
-  color: #BE4B4D;
+  color: #538C1A;
   font-size: clamp(1rem, 1.6vw, 1.55rem);
   font-style: italic;
   font-weight: 800;
@@ -971,7 +971,7 @@ body {
   position: absolute;
   left: 7%;
   top: 21rem;
-  color: #2B2A48;
+  color: #2F590F;
   font-family: var(--font-body);
   font-size: clamp(1.35rem, 2vw, 2rem);
   font-weight: 800;
@@ -993,7 +993,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #2B2A48;
+  background: #2F590F;
 }
 
 .work-category-banner h3 {
@@ -1017,7 +1017,7 @@ body {
 
 .video-showcase-intro h4 {
   position: relative;
-  color: #2B2A48;
+  color: #2F590F;
   font-size: clamp(1.25rem, 2vw, 1.8rem);
   font-weight: 800;
   letter-spacing: 0.055em;
@@ -1033,7 +1033,7 @@ body {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #2B2A48;
+  background: #2F590F;
 }
 
 .video-showcase-intro h4 span {
@@ -1041,13 +1041,13 @@ body {
 }
 
 .video-showcase-intro p {
-  color: #11121c;
+  color: #010D00;
   font-size: clamp(0.95rem, 1.3vw, 1.14rem);
   line-height: 1.55;
 }
 
 .video-showcase-intro p strong {
-  color: #BE4B4D;
+  color: #538C1A;
 }
 
 .portfolio-video-grid {
@@ -1069,7 +1069,7 @@ body {
   width: 100%;
   overflow: hidden;
   border-radius: 10px;
-  background: #101016;
+  background: #010D00;
 }
 
 .portfolio-video-grid-top .portfolio-video-card {
@@ -1093,7 +1093,7 @@ body {
   height: 100%;
   display: block;
   object-fit: cover;
-  background: #101016;
+  background: #010D00;
 }
 
 /* =========================================================
@@ -1115,7 +1115,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  color: rgba(49, 49, 76, 0.055);
+  color: rgba(13, 37, 4, 0.055);
   font-family: var(--font-body);
   font-size: clamp(10rem, 17vw, 16rem);
   font-weight: 800;
@@ -1142,7 +1142,7 @@ body {
   top: 3rem;
   left: 15%;
   z-index: 3;
-  color: #2B2A48;
+  color: #2F590F;
 }
 
 .motion-label {
@@ -1162,7 +1162,7 @@ body {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #2B2A48;
+  background: #2F590F;
 }
 
 .motion-copy h2 {
@@ -1186,7 +1186,7 @@ body {
   display: block;
   width: max-content;
   margin: 0.15rem 0 0 15rem;
-  color: #BE4B4D;
+  color: #538C1A;
   font-family: var(--font-hand);
   font-size: clamp(5rem, 7vw, 7.5rem);
   font-weight: 700;
@@ -1202,7 +1202,7 @@ body {
   height: auto;
   display: block;
   z-index: 4;
-  filter: drop-shadow(0 16px 26px rgba(27, 30, 52, 0.1));
+  filter: drop-shadow(0 16px 26px rgba(13, 37, 4, 0.1));
 }
 
 .motion-bottom-bar {
@@ -1212,7 +1212,7 @@ body {
   width: 88%;
   height: 76px;
   transform: translateX(-50%);
-  background: #2B2A48;
+  background: #2F590F;
   z-index: 2;
 }
 
@@ -1250,7 +1250,7 @@ body {
   width: 100%;
   overflow: hidden;
   border-radius: 10px;
-  background: #101016;
+  background: #010D00;
 }
 
 .motion-gallery-top .motion-video-portrait {
@@ -1270,7 +1270,7 @@ body {
   height: 100%;
   display: block;
   object-fit: cover;
-  background: #101016;
+  background: #010D00;
 }
 
 /* =========================================================
@@ -1290,7 +1290,7 @@ body {
   position: absolute;
   top: 7.5rem;
   left: clamp(1.5rem, 4vw, 4rem);
-  color: rgba(49, 49, 76, 0.055);
+  color: rgba(13, 37, 4, 0.055);
   font-family: 'Oswald', sans-serif;
   font-size: clamp(8rem, 14vw, 13rem);
   font-weight: 700;
@@ -1316,7 +1316,7 @@ body {
   grid-column: 1 / 3;
   align-self: start;
   padding: 2.2rem 0 0 2.5rem;
-  color: #2B2A48;
+  color: #2F590F;
 }
 
 .social-creatives-heading p {
@@ -1336,7 +1336,7 @@ body {
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #2B2A48;
+  background: #2F590F;
 }
 
 .social-creatives-heading h2 {
@@ -1354,7 +1354,7 @@ body {
   aspect-ratio: 9 / 16;
   overflow: hidden;
   border-radius: 10px;
-  background: #101016;
+  background: #010D00;
 }
 
 .social-video-card video {
@@ -1362,7 +1362,7 @@ body {
   height: 100%;
   display: block;
   object-fit: cover;
-  background: #101016;
+  background: #010D00;
 }
 
 /* =========================================================
@@ -1382,7 +1382,7 @@ body {
 .product-design-backdrop {
   position: absolute;
   inset: 0;
-  color: rgba(49, 49, 76, 0.05);
+  color: rgba(13, 37, 4, 0.05);
   font-family: 'Oswald', sans-serif;
   font-size: clamp(12rem, 20vw, 19rem);
   font-weight: 700;
@@ -1416,7 +1416,7 @@ body {
 }
 
 .product-design-heading p {
-  color: #BE4B4D;
+  color: #538C1A;
   font-size: clamp(1.7rem, 2.5vw, 2.5rem);
   font-weight: 800;
   line-height: 1;
@@ -1424,7 +1424,7 @@ body {
 }
 
 .product-design-heading h2 {
-  color: #2B2A48;
+  color: #2F590F;
   font-family: 'Oswald', sans-serif;
   font-size: clamp(10rem, 16vw, 15.5rem);
   font-weight: 700;
@@ -1440,7 +1440,7 @@ body {
   height: auto;
   display: block;
   z-index: 3;
-  filter: drop-shadow(0 18px 28px rgba(27, 30, 52, 0.08));
+  filter: drop-shadow(0 18px 28px rgba(13, 37, 4, 0.08));
 }
 
 /* =========================================================

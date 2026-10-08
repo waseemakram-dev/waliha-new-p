@@ -1,0 +1,46 @@
+/* Only runtime behavior missing from the extracted static Framer output. */
+.alta-source{width:100%;background:#f5f5f5;font-family:Inter,Arial,sans-serif;isolation:isolate}
+.alta-source [hidden]{display:none!important}
+.alta-source .reference-empty{text-align:center;padding:48px;font-size:20px;color:#171717}
+.alta-source .text-reveal>h1{opacity:0!important}
+.alta-source .text-reveal>.reference-text-ready{opacity:1!important}
+.alta-source .reference-line-mask{position:relative;display:block;text-align:inherit;margin-bottom:-.15em;padding-bottom:.15em;overflow:hidden}
+.alta-source .reference-line{display:block;position:relative;text-align:inherit}
+.alta-source [data-reference-reveal]{opacity:1}
+.alta-source .reference-appear-ready:not(.reference-visible){opacity:0}
+.alta-source .framer-q9ny7x{opacity:1!important;transform:scale(1)!important}
+.alta-source .framer-q9ny7x svg{transition:transform .4s cubic-bezier(.25,.02,0,1.02)}
+@media(hover:hover){.alta-source [data-reference-project]:hover .framer-q9ny7x svg{transform:translate(-50%,-50%) rotate(130deg)!important}}
+.alta-source [aria-label="Logo Container"]{opacity:1!important;visibility:visible!important}
+.alta-source .framer-mo6zjm,.alta-source .framer-w0vvro{transition:opacity .4s}
+@media(hover:hover){.alta-source a[href*="/articles/"]:hover .framer-mo6zjm,.alta-source a[href*="/articles/"]:hover .framer-w0vvro,.alta-source a[href*="/articles/"]:hover .framer-1j64726{opacity:1!important}}
+.alta-source [data-shader-slot]{position:relative;isolation:isolate}
+.alta-source [data-shader-slot]>div{position:absolute!important;inset:0}
+.alta-source [data-paper-shader] canvas{display:block;width:100%;height:100%}
+.alta-source .framer-s5tbzt{transition:transform 400ms cubic-bezier(.25,.02,0,1.02)}
+@media(hover:hover){.alta-source [data-reference-project]:hover .framer-s5tbzt{transform:scale(1)!important}}
+.alta-source :focus-visible{outline:2px solid #171717;outline-offset:4px}
+@media(min-width:1440px){.reference-work-page .chrome-header{top:40px}}
+/* Paired portfolio cards, with alternating wide/narrow panels like AWSMD. */
+.alta-source [data-framer-name="Project Stack"]{display:block!important;width:100%}
+.alta-source [data-framer-name="Project Stack"]>div:first-child{display:grid!important;grid-template-columns:repeat(12,minmax(0,1fr));gap:12px!important}
+.alta-source [data-reference-project-item]{grid-column:span 5;min-width:0;width:100%!important;height:clamp(360px,40vw,620px)!important}
+.alta-source [data-reference-project-item]:nth-child(4n+1 of :not([hidden])),.alta-source [data-reference-project-item]:nth-child(4n+4 of :not([hidden])){grid-column:span 7}
+.alta-source [data-reference-project]{display:block!important;border-radius:20px!important;overflow:hidden}
+.alta-source [data-reference-project] [data-framer-name="Main Container"]{height:100%!important;width:100%!important}
+.alta-source [data-reference-project] [data-framer-name="Gradient"]{display:none}
+.alta-source [data-reference-project] [data-framer-name="Content Wrapper"]{position:absolute!important;inset:auto 10px 10px!important;width:auto!important;height:auto!important;min-height:76px;padding:16px 64px 16px 16px!important;border-radius:16px;background:#fff;gap:5px!important}
+.alta-source [data-reference-project] [data-framer-name="Content Wrapper"] h6{--framer-text-color:#171717!important;color:#171717!important;font-size:17px!important;line-height:1.25!important;font-weight:600!important}
+.alta-source [data-reference-project] [data-framer-name="Service + Year"]{display:flex!important;width:100%!important;flex-direction:row!important;flex-wrap:wrap;align-items:baseline!important;justify-content:flex-start!important;gap:6px!important}
+.alta-source [data-reference-project] [data-framer-name="Service + Year"]>div{flex:none!important;width:auto!important}
+.alta-source [data-reference-project] [data-framer-name="Service + Year"] p{--framer-text-color:#666!important;color:#666!important;font-size:12px!important;line-height:1.4!important}
+.alta-source [data-reference-project] [data-framer-name="Zoom"]{position:absolute!important;top:50%!important;right:12px!important;bottom:auto!important;left:auto!important;width:40px!important;height:40px!important;border-radius:50%!important;background:#eee!important;transform:translateY(-50%)!important}
+.alta-source [data-reference-project] [data-framer-name="Zoom"] svg{display:none}
+.alta-source [data-reference-project] [data-framer-name="Zoom"]:after{content:"↗";position:absolute;inset:0;display:grid;place-items:center;color:#171717;font:22px/1 Arial,sans-serif;transition:transform .3s}
+@media(hover:hover){.alta-source [data-reference-project]:hover [data-framer-name="Zoom"]:after{transform:rotate(45deg)}}
+@media(max-width:809px){
+ .alta-source [data-framer-name="Project Stack"]>div:first-child{grid-template-columns:minmax(0,1fr);gap:12px!important}
+ .alta-source [data-reference-project-item],.alta-source [data-reference-project-item]:nth-child(n){grid-column:auto!important;height:420px!important}
+ .alta-source [data-reference-project] [data-framer-name="Content Wrapper"]{padding:14px 58px 14px 14px!important}
+}
+@media(prefers-reduced-motion:reduce){.alta-source .text-reveal>h1{opacity:1!important}.alta-source *{animation:none!important;transition:none!important}}
